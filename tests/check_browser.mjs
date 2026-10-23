@@ -25,7 +25,11 @@ try{
   try{
    let externalRequests=0;
    async function context(){const c=await browser.newContext({reducedMotion:'reduce'});await c.route('**/*',route=>{
-    if(route.request().url().startsWith(base+'/'))return route.continue();externalRequests++;return route.abort();
+    const url=route.request().url();
+    // WebKit routes local blob reads through its resource loader. These URLs
+    // resolve to memory/file bytes and are not external network connections.
+    if(url.startsWith(base+'/')||url.startsWith('blob:'+base+'/')||url.startsWith('data:'))return route.continue();
+    externalRequests++;console.error('Unexpected external request: '+url);return route.abort();
    });return c}
    const c=await context(),page=await c.newPage(),errors=[];page.on('pageerror',e=>errors.push(e.message));
    await page.goto(base+'/blank');
