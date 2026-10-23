@@ -17,6 +17,7 @@ const server=createServer((req,res)=>{
 await new Promise(r=>server.listen(0,'127.0.0.1',r));
 const base='http://127.0.0.1:'+server.address().port;
 const engines=process.env.ATLAS_BROWSERS?.split(',')||['chromium','firefox','webkit'];
+const failures=[];
 try{
  for(const name of engines){
   console.log('RUN '+name);
@@ -57,7 +58,11 @@ try{
     assert.equal(blocked,readFileSync(pack,'utf8').length);console.log('WebKit File read controls: '+JSON.stringify({emulatedOffline:emulated,httpBlockedBytes:blocked}));
     await page.evaluate(()=>document.getElementById('fileProbe').remove());
    }else await disconnect(c);
+   // Exercise route denial independently: Firefox's offline emulation rejects
+   // before routing, so it would otherwise bypass the blocked-request counter.
+   await c.setOffline(false);
    assert.equal(await page.evaluate(async()=>{try{await fetch('/__offline_probe');return false}catch{return true}}),true);
+   assert.equal(blockedProbes,1);await disconnect(c);
    await page.evaluate(async()=>{await clearFiles();await refreshCounts()});
    await page.locator('[data-tab="archive"]').click();
    await page.locator('#bundleInput').setInputFiles(pack);
@@ -101,6 +106,8 @@ try{
    assert.deepEqual(errors,[]);assert.equal(externalRequests,0);assert.equal(blockedProbes,1);
    await receiver.close();await c.close();
    console.log('PASS '+name+': v1 storage upgrade, offline import/read/export, fresh-device import, reload, quota rollback, tamper rejection; zero external requests');
-  }finally{await browser.close();clearTimeout(watchdog)}
+  }catch(error){failures.push(error);console.error('FAIL '+name+':',error)}
+  finally{await browser.close();clearTimeout(watchdog)}
  }
+ if(failures.length)throw new AggregateError(failures,'Browser offline checks failed');
 }finally{server.close()}
