@@ -16,7 +16,8 @@ For the browser tests, run `npm ci` and
 engine, use `ATLAS_BROWSERS=chromium node tests/check_browser.mjs`.
 
 Browser output and screenshots go to ignored `test-results/`; CI uploads them as
-`offline-browser-evidence`. Tests reload the application shell from the included
+`offline-browser-evidence`. CI uses the official Playwright 1.56.1 Noble image
+pinned by manifest digest, with its browser libraries preinstalled. Tests reload the application shell from the included
 loopback origin. They do not assert that an unsaved hosted page will boot offline,
 or that every browser permits IndexedDB under `file://`. Save the HTML and bundle
 or serve them from the included local server. Mobile/private-mode quotas and real
