@@ -23,14 +23,21 @@ try{
   const watchdog=setTimeout(()=>{console.error('Browser check timed out: '+name);process.exit(1)},180000);
   const browser=await ({chromium,firefox,webkit}[name]).launch({headless:true,timeout:60000});
   try{
-   let externalRequests=0;
-   async function context(){const c=await browser.newContext({reducedMotion:'reduce'});await c.route('**/*',route=>{
+   let externalRequests=0,blockedProbes=0;const networkStates=new Map();
+   async function context(){const c=await browser.newContext({reducedMotion:'reduce'}),state={blocked:false};networkStates.set(c,state);await c.route('**/*',route=>{
     const url=route.request().url();
     // WebKit routes local blob reads through its resource loader. These URLs
     // resolve to memory/file bytes and are not external network connections.
-    if(url.startsWith(base+'/')||url.startsWith('blob:'+base+'/')||url.startsWith('data:'))return route.continue();
+    if(url.startsWith('blob:'+base+'/')||url.startsWith('data:'))return route.continue();
+    if(state.blocked){if(url===base+'/__offline_probe')blockedProbes++;else externalRequests++;return route.abort()}
+    if(url.startsWith(base+'/'))return route.continue();
     externalRequests++;console.error('Unexpected external request: '+url);return route.abort();
    });return c}
+   async function disconnect(c,blocked=true){networkStates.get(c).blocked=blocked;
+    // WebKit's emulated offline flag can prevent local File reads. Deny every
+    // HTTP(S) request at the protocol layer instead; probe this denial below.
+    if(name!=='webkit')await c.setOffline(blocked);
+   }
    const c=await context(),page=await c.newPage(),errors=[];page.on('pageerror',e=>errors.push(e.message));
    await page.goto(base+'/blank');
    const legacyBytes=[111,108,100],legacyHash=createHash('sha256').update(Buffer.from(legacyBytes)).digest('hex');
@@ -41,7 +48,16 @@ try{
    await page.goto(base+'/index.html');
    await page.waitForFunction(()=>document.getElementById('metricLocal').textContent==='1');
    assert.equal(await page.evaluate(async()=>{const db=await idb();const version=db.version;db.close();return version}),2);
-   await c.setOffline(true);
+   if(name==='webkit'){
+    await page.evaluate(()=>{const p=document.createElement('input');p.type='file';p.id='fileProbe';document.body.append(p)});
+    await page.locator('#fileProbe').setInputFiles(pack);await c.setOffline(true);
+    const emulated=await page.evaluate(async()=>{try{return {bytes:(await document.getElementById('fileProbe').files[0].text()).length}}catch(e){return {error:e.name+': '+e.message}}});
+    await c.setOffline(false);await disconnect(c);
+    const blocked=await page.evaluate(async()=>(await document.getElementById('fileProbe').files[0].text()).length);
+    assert.equal(blocked,readFileSync(pack,'utf8').length);console.log('WebKit File read controls: '+JSON.stringify({emulatedOffline:emulated,httpBlockedBytes:blocked}));
+    await page.evaluate(()=>document.getElementById('fileProbe').remove());
+   }else await disconnect(c);
+   assert.equal(await page.evaluate(async()=>{try{await fetch('/__offline_probe');return false}catch{return true}}),true);
    await page.evaluate(async()=>{await clearFiles();await refreshCounts()});
    await page.locator('[data-tab="archive"]').click();
    await page.locator('#bundleInput').setInputFiles(pack);
@@ -63,7 +79,7 @@ try{
    const carDownload=page.waitForEvent('download');await page.locator('#exportCar').click();const carPath=join(output,name+'-export.car');await (await carDownload).saveAs(carPath);
    const expected=readFileSync(join(root,'source-packs/central-efmw-v1.car'));assert.deepEqual(readFileSync(carPath),expected);
    // New browser storage partition represents the receiving device.
-   const receiver=await context(),p=await receiver.newPage();p.on('pageerror',e=>errors.push(e.message));await p.goto(base+'/index.html');await receiver.setOffline(true);
+   const receiver=await context(),p=await receiver.newPage();p.on('pageerror',e=>errors.push(e.message));await p.goto(base+'/index.html');await disconnect(receiver);
    await p.locator('[data-tab="archive"]').click();await p.locator('#bundleInput').setInputFiles(saved);
    await p.waitForFunction(()=>document.getElementById('metricLocal').textContent==='99');
    await p.evaluate(()=>changeRepo('Circus'));await p.locator('[data-tab="atlas"]').click();await p.locator('#listCached').click();
@@ -71,7 +87,7 @@ try{
    await p.locator('#sourcePath').fill('README.md');await p.locator('#loadCached').click();await p.waitForFunction(()=>document.getElementById('sourceText').textContent.includes('CIRCUS'));
    await p.screenshot({path:join(output,name+'-offline.png'),fullPage:true});
    // Reload shell from the included loopback server with external routes still blocked.
-   await receiver.setOffline(false);await p.reload();await p.waitForFunction(()=>document.getElementById('metricLocal').textContent==='99');await receiver.setOffline(true);
+   await disconnect(receiver,false);await p.reload();await p.waitForFunction(()=>document.getElementById('metricLocal').textContent==='99');await disconnect(receiver);
    // Quota/write failure must roll back the entire real IndexedDB transaction.
    await p.evaluate(async()=>{await clearFiles();await refreshCounts();globalThis.originalPut=IDBObjectStore.prototype.put;let count=0;IDBObjectStore.prototype.put=function(...args){if(++count===3)throw new DOMException('test quota','QuotaExceededError');return originalPut.apply(this,args)}});
    await p.locator('[data-tab="archive"]').click();await p.locator('#bundleInput').setInputFiles(saved);
@@ -82,7 +98,7 @@ try{
    await p.locator('#bundleInput').setInputFiles({name:'tampered.json',mimeType:'application/json',buffer:Buffer.from(JSON.stringify(bad))});
    await p.waitForFunction(()=>document.getElementById('archiveLog').textContent.includes('Checksum mismatch'));
    assert.equal(await p.evaluate(async()=>(await getAllFiles()).length),0);
-   assert.deepEqual(errors,[]);assert.equal(externalRequests,0);
+   assert.deepEqual(errors,[]);assert.equal(externalRequests,0);assert.equal(blockedProbes,1);
    await receiver.close();await c.close();
    console.log('PASS '+name+': v1 storage upgrade, offline import/read/export, fresh-device import, reload, quota rollback, tamper rejection; zero external requests');
   }finally{await browser.close();clearTimeout(watchdog)}

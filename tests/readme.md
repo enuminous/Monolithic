@@ -9,7 +9,7 @@ format/offline tests require Node 22+ and no installed packages.
 | `node tests/check_formats.mjs` | Existing CID vector, DAG-CBOR ordering, 126 catalog identities, WASM/JS CRC cross-check and empty export compatibility. |
 | `node tests/check_offline.mjs` | Runs the actual standalone importer, reader and exporters in Node with storage replaced by an in-memory adapter and `fetch` forbidden. Reads all 99 texts, checks a fresh-import JSON round trip and deterministic root, independently parses CAR framing and verifies every block, rejects tampered bytes/trees/commits/licenses/paths/duplicates/false completeness. Tests legacy v1 and coverage changes. |
 | `python3 tests/check_server.py` | Existing loopback archive-server CID checks, aliases, inventory and relay behavior. |
-| `node tests/check_browser.mjs` | Chromium, Firefox and WebKit through Playwright 1.56.1: actual IndexedDB v1→v2 migration, all 99 offline reads, UI JSON and CAR export, fresh storage import, local-file navigation, persistence after loading the shell again, atomic rollback under injected quota/write failure, and corrupt-bundle rejection. External routes are blocked throughout; the browser is switched offline for import/read/export. |
+| `node tests/check_browser.mjs` | Chromium, Firefox and WebKit through Playwright 1.56.1: actual IndexedDB v1→v2 migration, all 99 offline reads, UI JSON and CAR export, fresh storage import, local-file navigation, persistence after loading the shell again, atomic rollback under injected quota/write failure, and corrupt-bundle rejection. External routes are blocked throughout; every HTTP request is denied during import/read/export, including loopback requests. A negative fetch control verifies the denial. |
 
 For the browser tests, run `npm ci` and
 `npx playwright install --with-deps chromium firefox webkit` first. To run one
@@ -22,6 +22,12 @@ loopback origin. They do not assert that an unsaved hosted page will boot offlin
 or that every browser permits IndexedDB under `file://`. Save the HTML and bundle
 or serve them from the included local server. Mobile/private-mode quotas and real
 IPFS pinning are outside this test scope.
+
+Chromium and Firefox additionally use Playwright's emulated offline flag. WebKit
+uses HTTP denial without that flag: separate File-read controls record whether
+emulation itself prevents reading a selected local file. Local `blob:` and
+`data:` bytes remain available; they are not external network requests. The test
+does not substitute fetched fixture content for the browser's file input.
 
 Regenerate `index.html`, CAR, DAG-CBOR, CID and SHA256SUMS and require byte-for-byte
 equality with the checkout in CI. These tests verify the reading archive; they do not execute archived
