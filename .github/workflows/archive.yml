@@ -25,13 +25,14 @@ jobs:
       - run: npm ci
       - name: Verify and reconstruct pack without fetching sources
         run: |
+          sha256sum corpus-index.json index.html source-packs/* > /tmp/atlas-generated-before.sha256
           python3 tests/check_source_pack.py
           python3 tools/build.py
           node tests/check_formats.mjs
           node tests/check_offline.mjs
           node tools/export_pack.mjs
           sha256sum -c source-packs/SHA256SUMS
-          git diff --exit-code -- corpus-index.json index.html source-packs
+          sha256sum -c /tmp/atlas-generated-before.sha256
           python3 tests/check_server.py
       - name: Real browser offline import, storage and export
         run: node tests/check_browser.mjs

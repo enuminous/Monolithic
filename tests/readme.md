@@ -23,6 +23,6 @@ or that every browser permits IndexedDB under `file://`. Save the HTML and bundl
 or serve them from the included local server. Mobile/private-mode quotas and real
 IPFS pinning are outside this test scope.
 
-Regenerate `index.html`, CAR, DAG-CBOR, CID and SHA256SUMS and require a clean diff
-in CI. These tests verify the reading archive; they do not execute archived
+Regenerate `index.html`, CAR, DAG-CBOR, CID and SHA256SUMS and require byte-for-byte
+equality with the checkout in CI. These tests verify the reading archive; they do not execute archived
 research code, build Lean, certify ownership or validate scientific claims.
