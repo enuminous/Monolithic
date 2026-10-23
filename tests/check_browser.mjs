@@ -41,7 +41,8 @@ try{
    await page.evaluate(async()=>{await clearFiles();await refreshCounts()});
    await page.locator('[data-tab="archive"]').click();
    await page.locator('#bundleInput').setInputFiles(pack);
-   await page.waitForFunction(()=>document.getElementById('archiveLog').textContent.startsWith('Validated and imported 99'));
+   await page.waitForFunction(()=>/^(Validated and imported|Import rejected:)/.test(document.getElementById('archiveLog').textContent));
+   assert.match(await page.locator('#archiveLog').textContent(),/^Validated and imported 99/);
    const facts=await page.evaluate(async()=>{
     const rows=[];
     for(const f of await getAllFiles()){
