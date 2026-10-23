@@ -6,7 +6,7 @@
   },
   "app": "Monolithic Atlas",
   "snapshotDate": "2026-10-23",
-  "scope": "126 public repositories accessible in GitHub search for user:enuminous. Metadata only; complete file contents NOT mirrored.",
+  "scope": "126 repository metadata records; central-efmw-v1 is a separate, bounded source pack. See per-repository archive coverage. The HTML alone contains no source files.",
   "license": "No blanket license inferred. Original per-repository rights and contribution terms apply.",
   "repositories": [
     {
@@ -19,7 +19,7 @@
       "note": "",
       "source": "GitHub connected account inventory, 2026-10-23",
       "url": "https://github.com/enuminous/accelerando-8192",
-      "status": "index-only",
+      "status": "metadata-only",
       "rights": "undetermined"
     },
     {
@@ -32,7 +32,7 @@
       "note": "",
       "source": "GitHub connected account inventory, 2026-10-23",
       "url": "https://github.com/enuminous/Alchemy-of-Emergence",
-      "status": "index-only",
+      "status": "metadata-only",
       "rights": "undetermined"
     },
     {
@@ -45,7 +45,7 @@
       "note": "",
       "source": "GitHub connected account inventory, 2026-10-23",
       "url": "https://github.com/enuminous/Ant",
-      "status": "index-only",
+      "status": "metadata-only",
       "rights": "undetermined"
     },
     {
@@ -58,7 +58,7 @@
       "note": "",
       "source": "GitHub connected account inventory, 2026-10-23",
       "url": "https://github.com/enuminous/aok",
-      "status": "index-only",
+      "status": "metadata-only",
       "rights": "undetermined"
     },
     {
@@ -71,7 +71,7 @@
       "note": "",
       "source": "GitHub connected account inventory, 2026-10-23",
       "url": "https://github.com/enuminous/Archimedes-3D",
-      "status": "index-only",
+      "status": "metadata-only",
       "rights": "undetermined"
     },
     {
@@ -84,7 +84,7 @@
       "note": "",
       "source": "GitHub connected account inventory, 2026-10-23",
       "url": "https://github.com/enuminous/Archimedes-Engine",
-      "status": "index-only",
+      "status": "metadata-only",
       "rights": "undetermined"
     },
     {
@@ -97,7 +97,7 @@
       "note": "",
       "source": "GitHub connected account inventory, 2026-10-23",
       "url": "https://github.com/enuminous/Archimedes-Field-Lab",
-      "status": "index-only",
+      "status": "metadata-only",
       "rights": "undetermined"
     },
     {
@@ -110,7 +110,7 @@
       "note": "",
       "source": "GitHub connected account inventory, 2026-10-23",
       "url": "https://github.com/enuminous/Aristotle_EFMW_Lean",
-      "status": "index-only",
+      "status": "metadata-only",
       "rights": "undetermined"
     },
     {
@@ -123,7 +123,7 @@
       "note": "",
       "source": "GitHub connected account inventory, 2026-10-23",
       "url": "https://github.com/enuminous/Aristotle-102-Monolithic-Lean",
-      "status": "index-only",
+      "status": "metadata-only",
       "rights": "undetermined"
     },
     {
@@ -136,7 +136,7 @@
       "note": "",
       "source": "GitHub connected account inventory, 2026-10-23",
       "url": "https://github.com/enuminous/Aristotle-165-Einsteinian-Tensors",
-      "status": "index-only",
+      "status": "metadata-only",
       "rights": "undetermined"
     },
     {
@@ -149,7 +149,7 @@
       "note": "",
       "source": "GitHub connected account inventory, 2026-10-23",
       "url": "https://github.com/enuminous/Aristotle-Agreement-and-Surprise-Global-Equalibrium-from-Local-Repair",
-      "status": "index-only",
+      "status": "metadata-only",
       "rights": "undetermined"
     },
     {
@@ -162,7 +162,7 @@
       "note": "",
       "source": "GitHub connected account inventory, 2026-10-23",
       "url": "https://github.com/enuminous/Aristotle-eNuminous",
-      "status": "index-only",
+      "status": "metadata-only",
       "rights": "undetermined"
     },
     {
@@ -175,7 +175,7 @@
       "note": "Formal audit and tutorial of a Ramtastic fork; review attribution and build evidence.",
       "source": "GitHub connected account inventory, 2026-10-23",
       "url": "https://github.com/enuminous/Aristotle-Ramtastic-Audit",
-      "status": "index-only",
+      "status": "metadata-only",
       "rights": "undetermined"
     },
     {
@@ -188,7 +188,7 @@
       "note": "",
       "source": "GitHub connected account inventory, 2026-10-23",
       "url": "https://github.com/enuminous/Avenue5",
-      "status": "index-only",
+      "status": "metadata-only",
       "rights": "undetermined"
     },
     {
@@ -201,7 +201,7 @@
       "note": "",
       "source": "GitHub connected account inventory, 2026-10-23",
       "url": "https://github.com/enuminous/Axolotl",
-      "status": "index-only",
+      "status": "metadata-only",
       "rights": "undetermined"
     },
     {
@@ -214,7 +214,7 @@
       "note": "",
       "source": "GitHub connected account inventory, 2026-10-23",
       "url": "https://github.com/enuminous/BackroomsProtocol-EFMW-Analysis",
-      "status": "index-only",
+      "status": "metadata-only",
       "rights": "undetermined"
     },
     {
@@ -227,7 +227,7 @@
       "note": "",
       "source": "GitHub connected account inventory, 2026-10-23",
       "url": "https://github.com/enuminous/Bat",
-      "status": "index-only",
+      "status": "metadata-only",
       "rights": "undetermined"
     },
     {
@@ -240,7 +240,7 @@
       "note": "",
       "source": "GitHub connected account inventory, 2026-10-23",
       "url": "https://github.com/enuminous/Beaver",
-      "status": "index-only",
+      "status": "metadata-only",
       "rights": "undetermined"
     },
     {
@@ -253,7 +253,7 @@
       "note": "",
       "source": "GitHub connected account inventory, 2026-10-23",
       "url": "https://github.com/enuminous/Bison",
-      "status": "index-only",
+      "status": "metadata-only",
       "rights": "undetermined"
     },
     {
@@ -266,7 +266,7 @@
       "note": "",
       "source": "GitHub connected account inventory, 2026-10-23",
       "url": "https://github.com/enuminous/Bonobo",
-      "status": "index-only",
+      "status": "metadata-only",
       "rights": "undetermined"
     },
     {
@@ -279,7 +279,7 @@
       "note": "",
       "source": "GitHub connected account inventory, 2026-10-23",
       "url": "https://github.com/enuminous/Borges-Library-CollapseOmega",
-      "status": "index-only",
+      "status": "metadata-only",
       "rights": "undetermined"
     },
     {
@@ -292,7 +292,7 @@
       "note": "",
       "source": "GitHub connected account inventory, 2026-10-23",
       "url": "https://github.com/enuminous/Butterfly",
-      "status": "index-only",
+      "status": "metadata-only",
       "rights": "undetermined"
     },
     {
@@ -305,7 +305,7 @@
       "note": "",
       "source": "GitHub connected account inventory, 2026-10-23",
       "url": "https://github.com/enuminous/Cadence-Zoo-Evidence",
-      "status": "index-only",
+      "status": "metadata-only",
       "rights": "undetermined"
     },
     {
@@ -318,7 +318,7 @@
       "note": "",
       "source": "GitHub connected account inventory, 2026-10-23",
       "url": "https://github.com/enuminous/Cat",
-      "status": "index-only",
+      "status": "metadata-only",
       "rights": "undetermined"
     },
     {
@@ -331,7 +331,7 @@
       "note": "",
       "source": "GitHub connected account inventory, 2026-10-23",
       "url": "https://github.com/enuminous/Cat-Physics",
-      "status": "index-only",
+      "status": "metadata-only",
       "rights": "undetermined"
     },
     {
@@ -344,7 +344,7 @@
       "note": "",
       "source": "GitHub connected account inventory, 2026-10-23",
       "url": "https://github.com/enuminous/Chameleon",
-      "status": "index-only",
+      "status": "metadata-only",
       "rights": "undetermined"
     },
     {
@@ -357,7 +357,7 @@
       "note": "",
       "source": "GitHub connected account inventory, 2026-10-23",
       "url": "https://github.com/enuminous/Chimera",
-      "status": "index-only",
+      "status": "metadata-only",
       "rights": "undetermined"
     },
     {
@@ -370,8 +370,17 @@
       "note": "Circularity and provenance checks.",
       "source": "GitHub connected account inventory, 2026-10-23",
       "url": "https://github.com/enuminous/Circus",
-      "status": "index-only",
-      "rights": "undetermined"
+      "status": "fully-mirrored",
+      "rights": "undetermined",
+      "archive": {
+        "commit": "892f0d5498b5ec0369691f31a058871675e64b43",
+        "status": "fully-mirrored",
+        "treeFiles": 9,
+        "capturedFiles": 9,
+        "capturedBytes": 25010,
+        "license": "CC0-1.0",
+        "pack": "central-efmw-v1"
+      }
     },
     {
       "id": "enuminous/Cobra",
@@ -383,7 +392,7 @@
       "note": "",
       "source": "GitHub connected account inventory, 2026-10-23",
       "url": "https://github.com/enuminous/Cobra",
-      "status": "index-only",
+      "status": "metadata-only",
       "rights": "undetermined"
     },
     {
@@ -396,7 +405,7 @@
       "note": "",
       "source": "GitHub connected account inventory, 2026-10-23",
       "url": "https://github.com/enuminous/Codex-888",
-      "status": "index-only",
+      "status": "metadata-only",
       "rights": "undetermined"
     },
     {
@@ -409,7 +418,7 @@
       "note": "",
       "source": "GitHub connected account inventory, 2026-10-23",
       "url": "https://github.com/enuminous/Coherence-Prediction-Engine",
-      "status": "index-only",
+      "status": "metadata-only",
       "rights": "undetermined"
     },
     {
@@ -422,7 +431,7 @@
       "note": "",
       "source": "GitHub connected account inventory, 2026-10-23",
       "url": "https://github.com/enuminous/Crab",
-      "status": "index-only",
+      "status": "metadata-only",
       "rights": "undetermined"
     },
     {
@@ -435,7 +444,7 @@
       "note": "",
       "source": "GitHub connected account inventory, 2026-10-23",
       "url": "https://github.com/enuminous/Crocodile",
-      "status": "index-only",
+      "status": "metadata-only",
       "rights": "undetermined"
     },
     {
@@ -448,7 +457,7 @@
       "note": "",
       "source": "GitHub connected account inventory, 2026-10-23",
       "url": "https://github.com/enuminous/DePIN",
-      "status": "index-only",
+      "status": "metadata-only",
       "rights": "undetermined"
     },
     {
@@ -461,11 +470,20 @@
       "note": "Versioned corpus assistant and benchmark specification. DEV2-001 remains draft, not a completed confirmatory experiment.",
       "source": "GitHub connected account inventory, 2026-10-23",
       "url": "https://github.com/enuminous/Devs2.0",
-      "status": "index-only",
+      "status": "metadata-only",
       "rights": "undetermined",
       "readme": {
         "path": "README.md",
         "gitBlobSha": "21cffc97b5d6c6a17f4ac8811399e80c9a8f2f54"
+      },
+      "archive": {
+        "commit": "2ec5cfb7cb98e36d7bba01552a74aa4d610e07c3",
+        "status": "metadata-only",
+        "treeFiles": 108,
+        "capturedFiles": 0,
+        "capturedBytes": 0,
+        "license": null,
+        "pack": "central-efmw-v1"
       }
     },
     {
@@ -478,7 +496,7 @@
       "note": "",
       "source": "GitHub connected account inventory, 2026-10-23",
       "url": "https://github.com/enuminous/docs",
-      "status": "index-only",
+      "status": "metadata-only",
       "rights": "undetermined"
     },
     {
@@ -491,7 +509,7 @@
       "note": "",
       "source": "GitHub connected account inventory, 2026-10-23",
       "url": "https://github.com/enuminous/Dolphin",
-      "status": "index-only",
+      "status": "metadata-only",
       "rights": "undetermined"
     },
     {
@@ -504,7 +522,7 @@
       "note": "",
       "source": "GitHub connected account inventory, 2026-10-23",
       "url": "https://github.com/enuminous/Dragon",
-      "status": "index-only",
+      "status": "metadata-only",
       "rights": "undetermined"
     },
     {
@@ -517,7 +535,7 @@
       "note": "",
       "source": "GitHub connected account inventory, 2026-10-23",
       "url": "https://github.com/enuminous/Eagle",
-      "status": "index-only",
+      "status": "metadata-only",
       "rights": "undetermined"
     },
     {
@@ -530,11 +548,20 @@
       "note": "Canonical entry point and reviewer navigation; links to the claims-to-evidence register.",
       "source": "GitHub connected account inventory, 2026-10-23",
       "url": "https://github.com/enuminous/EFMW",
-      "status": "index-only",
+      "status": "metadata-only",
       "rights": "undetermined",
       "readme": {
         "path": "README.md",
         "gitBlobSha": "b6e62bea9f9d844e5ee18061b928b62c668bf1e3"
+      },
+      "archive": {
+        "commit": "cae1b1b9518af9dddc8ab9f09d391645e611847c",
+        "status": "metadata-only",
+        "treeFiles": 18,
+        "capturedFiles": 0,
+        "capturedBytes": 0,
+        "license": null,
+        "pack": "central-efmw-v1"
       }
     },
     {
@@ -547,8 +574,17 @@
       "note": "Reviewer starting point, claims register, and reproducibility boundaries.",
       "source": "GitHub connected account inventory, 2026-10-23",
       "url": "https://github.com/enuminous/EFMW_Post156_Zoo_Audit",
-      "status": "index-only",
-      "rights": "undetermined"
+      "status": "metadata-only",
+      "rights": "undetermined",
+      "archive": {
+        "commit": "dc8903f99c5503e2279b3962d960cb4f0bfa622c",
+        "status": "metadata-only",
+        "treeFiles": 107,
+        "capturedFiles": 0,
+        "capturedBytes": 0,
+        "license": null,
+        "pack": "central-efmw-v1"
+      }
     },
     {
       "id": "enuminous/EFMW-108-Minute-Tests",
@@ -560,7 +596,7 @@
       "note": "",
       "source": "GitHub connected account inventory, 2026-10-23",
       "url": "https://github.com/enuminous/EFMW-108-Minute-Tests",
-      "status": "index-only",
+      "status": "metadata-only",
       "rights": "undetermined"
     },
     {
@@ -573,8 +609,17 @@
       "note": "",
       "source": "GitHub connected account inventory, 2026-10-23",
       "url": "https://github.com/enuminous/EFMW-Axioms",
-      "status": "index-only",
-      "rights": "undetermined"
+      "status": "metadata-only",
+      "rights": "undetermined",
+      "archive": {
+        "commit": "248dcbf323b8ee3f25ccfcf346d29516d77019a1",
+        "status": "metadata-only",
+        "treeFiles": 14,
+        "capturedFiles": 0,
+        "capturedBytes": 0,
+        "license": null,
+        "pack": "central-efmw-v1"
+      }
     },
     {
       "id": "enuminous/EFMW-Bounded-Test-1",
@@ -586,7 +631,7 @@
       "note": "",
       "source": "GitHub connected account inventory, 2026-10-23",
       "url": "https://github.com/enuminous/EFMW-Bounded-Test-1",
-      "status": "index-only",
+      "status": "metadata-only",
       "rights": "undetermined"
     },
     {
@@ -599,7 +644,7 @@
       "note": "",
       "source": "GitHub connected account inventory, 2026-10-23",
       "url": "https://github.com/enuminous/EFMW-Constants-Problem",
-      "status": "index-only",
+      "status": "metadata-only",
       "rights": "undetermined"
     },
     {
@@ -612,7 +657,7 @@
       "note": "",
       "source": "GitHub connected account inventory, 2026-10-23",
       "url": "https://github.com/enuminous/EFMW-CTX-001b",
-      "status": "index-only",
+      "status": "metadata-only",
       "rights": "undetermined"
     },
     {
@@ -625,7 +670,7 @@
       "note": "",
       "source": "GitHub connected account inventory, 2026-10-23",
       "url": "https://github.com/enuminous/efmw-equation-review",
-      "status": "index-only",
+      "status": "metadata-only",
       "rights": "undetermined"
     },
     {
@@ -638,11 +683,20 @@
       "note": "Frozen experimental research design and reports; check primary files before making result claims.",
       "source": "GitHub connected account inventory, 2026-10-23",
       "url": "https://github.com/enuminous/EFMW-EXP-001",
-      "status": "index-only",
+      "status": "metadata-only",
       "rights": "undetermined",
       "readme": {
         "path": "README.md",
         "gitBlobSha": "409cf8144da1525a97de898624dfd238358a5cd9"
+      },
+      "archive": {
+        "commit": "65134993069c2dc0c46a60fccd8bcdb2d951cdd3",
+        "status": "metadata-only",
+        "treeFiles": 48,
+        "capturedFiles": 0,
+        "capturedBytes": 0,
+        "license": null,
+        "pack": "central-efmw-v1"
       }
     },
     {
@@ -655,7 +709,7 @@
       "note": "",
       "source": "GitHub connected account inventory, 2026-10-23",
       "url": "https://github.com/enuminous/EFMW-FULL",
-      "status": "index-only",
+      "status": "metadata-only",
       "rights": "undetermined"
     },
     {
@@ -668,11 +722,20 @@
       "note": "Pre-registration and synthetic residual-coherence monitoring; not independent grid-operations validation.",
       "source": "GitHub connected account inventory, 2026-10-23",
       "url": "https://github.com/enuminous/EFMW-Grid",
-      "status": "index-only",
+      "status": "metadata-only",
       "rights": "undetermined",
       "readme": {
         "path": "README.md",
         "gitBlobSha": "d4c08c0c2435b091283404e5381578cdb2380ec1"
+      },
+      "archive": {
+        "commit": "2be52f3f72937742f76ad7ba35a837d157e20196",
+        "status": "metadata-only",
+        "treeFiles": 9,
+        "capturedFiles": 0,
+        "capturedBytes": 0,
+        "license": null,
+        "pack": "central-efmw-v1"
       }
     },
     {
@@ -685,11 +748,20 @@
       "note": "Frozen C1 candidate-action audit; 585 FieldSpace statements catalogued, not 585 proofs of physical truth.",
       "source": "GitHub connected account inventory, 2026-10-23",
       "url": "https://github.com/enuminous/EFMW-Lagrangian",
-      "status": "index-only",
+      "status": "metadata-only",
       "rights": "undetermined",
       "readme": {
         "path": "README.md",
         "gitBlobSha": "4fcd15c8100f7487143ec616ad438271556e4584"
+      },
+      "archive": {
+        "commit": "2e392b9fb5bbfa35667cd562787e23cadcc1623f",
+        "status": "metadata-only",
+        "treeFiles": 120,
+        "capturedFiles": 0,
+        "capturedBytes": 0,
+        "license": null,
+        "pack": "central-efmw-v1"
       }
     },
     {
@@ -702,7 +774,7 @@
       "note": "",
       "source": "GitHub connected account inventory, 2026-10-23",
       "url": "https://github.com/enuminous/EFMW-Neutron-Star-Glitch-Resonance",
-      "status": "index-only",
+      "status": "metadata-only",
       "rights": "undetermined"
     },
     {
@@ -715,7 +787,7 @@
       "note": "",
       "source": "GitHub connected account inventory, 2026-10-23",
       "url": "https://github.com/enuminous/efmw-research-cache",
-      "status": "index-only",
+      "status": "metadata-only",
       "rights": "undetermined"
     },
     {
@@ -728,7 +800,7 @@
       "note": "",
       "source": "GitHub connected account inventory, 2026-10-23",
       "url": "https://github.com/enuminous/EFMW-Safety-001",
-      "status": "index-only",
+      "status": "metadata-only",
       "rights": "undetermined"
     },
     {
@@ -741,7 +813,7 @@
       "note": "",
       "source": "GitHub connected account inventory, 2026-10-23",
       "url": "https://github.com/enuminous/EFMW-Scientific-Claims",
-      "status": "index-only",
+      "status": "metadata-only",
       "rights": "undetermined"
     },
     {
@@ -754,7 +826,7 @@
       "note": "",
       "source": "GitHub connected account inventory, 2026-10-23",
       "url": "https://github.com/enuminous/Einsteinian-156-Aristotle",
-      "status": "index-only",
+      "status": "metadata-only",
       "rights": "undetermined"
     },
     {
@@ -767,7 +839,7 @@
       "note": "",
       "source": "GitHub connected account inventory, 2026-10-23",
       "url": "https://github.com/enuminous/Elephant",
-      "status": "index-only",
+      "status": "metadata-only",
       "rights": "undetermined"
     },
     {
@@ -780,7 +852,7 @@
       "note": "",
       "source": "GitHub connected account inventory, 2026-10-23",
       "url": "https://github.com/enuminous/Emergentology",
-      "status": "index-only",
+      "status": "metadata-only",
       "rights": "undetermined"
     },
     {
@@ -793,7 +865,7 @@
       "note": "",
       "source": "GitHub connected account inventory, 2026-10-23",
       "url": "https://github.com/enuminous/Extrauniversal-Warren-Report",
-      "status": "index-only",
+      "status": "metadata-only",
       "rights": "undetermined"
     },
     {
@@ -806,7 +878,7 @@
       "note": "",
       "source": "GitHub connected account inventory, 2026-10-23",
       "url": "https://github.com/enuminous/Falcon",
-      "status": "index-only",
+      "status": "metadata-only",
       "rights": "undetermined"
     },
     {
@@ -819,7 +891,7 @@
       "note": "",
       "source": "GitHub connected account inventory, 2026-10-23",
       "url": "https://github.com/enuminous/fieldcore",
-      "status": "index-only",
+      "status": "metadata-only",
       "rights": "undetermined"
     },
     {
@@ -832,8 +904,17 @@
       "note": "Einsteinian triplet and field-space catalogue.",
       "source": "GitHub connected account inventory, 2026-10-23",
       "url": "https://github.com/enuminous/FieldSpace",
-      "status": "index-only",
-      "rights": "undetermined"
+      "status": "metadata-only",
+      "rights": "undetermined",
+      "archive": {
+        "commit": "39e8a7e8acbf20b9a9b8e2afd0985549925ab86c",
+        "status": "metadata-only",
+        "treeFiles": 34,
+        "capturedFiles": 0,
+        "capturedBytes": 0,
+        "license": null,
+        "pack": "central-efmw-v1"
+      }
     },
     {
       "id": "enuminous/Fox",
@@ -845,7 +926,7 @@
       "note": "",
       "source": "GitHub connected account inventory, 2026-10-23",
       "url": "https://github.com/enuminous/Fox",
-      "status": "index-only",
+      "status": "metadata-only",
       "rights": "undetermined"
     },
     {
@@ -858,7 +939,7 @@
       "note": "",
       "source": "GitHub connected account inventory, 2026-10-23",
       "url": "https://github.com/enuminous/Gecko",
-      "status": "index-only",
+      "status": "metadata-only",
       "rights": "undetermined"
     },
     {
@@ -871,7 +952,7 @@
       "note": "",
       "source": "GitHub connected account inventory, 2026-10-23",
       "url": "https://github.com/enuminous/Harlequinn",
-      "status": "index-only",
+      "status": "metadata-only",
       "rights": "undetermined"
     },
     {
@@ -884,7 +965,7 @@
       "note": "",
       "source": "GitHub connected account inventory, 2026-10-23",
       "url": "https://github.com/enuminous/Hedgehog",
-      "status": "index-only",
+      "status": "metadata-only",
       "rights": "undetermined"
     },
     {
@@ -897,7 +978,7 @@
       "note": "",
       "source": "GitHub connected account inventory, 2026-10-23",
       "url": "https://github.com/enuminous/Hive",
-      "status": "index-only",
+      "status": "metadata-only",
       "rights": "undetermined"
     },
     {
@@ -910,7 +991,7 @@
       "note": "",
       "source": "GitHub connected account inventory, 2026-10-23",
       "url": "https://github.com/enuminous/Horse",
-      "status": "index-only",
+      "status": "metadata-only",
       "rights": "undetermined"
     },
     {
@@ -923,7 +1004,7 @@
       "note": "",
       "source": "GitHub connected account inventory, 2026-10-23",
       "url": "https://github.com/enuminous/I-Have-Guts",
-      "status": "index-only",
+      "status": "metadata-only",
       "rights": "undetermined"
     },
     {
@@ -936,7 +1017,7 @@
       "note": "",
       "source": "GitHub connected account inventory, 2026-10-23",
       "url": "https://github.com/enuminous/Jellyfish",
-      "status": "index-only",
+      "status": "metadata-only",
       "rights": "undetermined"
     },
     {
@@ -949,7 +1030,7 @@
       "note": "",
       "source": "GitHub connected account inventory, 2026-10-23",
       "url": "https://github.com/enuminous/JEV-EFMW-Syncretic-Layer",
-      "status": "index-only",
+      "status": "metadata-only",
       "rights": "undetermined"
     },
     {
@@ -962,7 +1043,7 @@
       "note": "",
       "source": "GitHub connected account inventory, 2026-10-23",
       "url": "https://github.com/enuminous/lean-worker",
-      "status": "index-only",
+      "status": "metadata-only",
       "rights": "undetermined"
     },
     {
@@ -975,7 +1056,7 @@
       "note": "",
       "source": "GitHub connected account inventory, 2026-10-23",
       "url": "https://github.com/enuminous/Ligo_EFMW_Search",
-      "status": "index-only",
+      "status": "metadata-only",
       "rights": "undetermined"
     },
     {
@@ -988,7 +1069,7 @@
       "note": "",
       "source": "GitHub connected account inventory, 2026-10-23",
       "url": "https://github.com/enuminous/Lynx",
-      "status": "index-only",
+      "status": "metadata-only",
       "rights": "undetermined"
     },
     {
@@ -1001,7 +1082,7 @@
       "note": "",
       "source": "GitHub connected account inventory, 2026-10-23",
       "url": "https://github.com/enuminous/Magpie",
-      "status": "index-only",
+      "status": "metadata-only",
       "rights": "undetermined"
     },
     {
@@ -1014,7 +1095,7 @@
       "note": "",
       "source": "GitHub connected account inventory, 2026-10-23",
       "url": "https://github.com/enuminous/Mantis",
-      "status": "index-only",
+      "status": "metadata-only",
       "rights": "undetermined"
     },
     {
@@ -1027,7 +1108,7 @@
       "note": "Mathematical satire; satire must not be confused with theorems.",
       "source": "GitHub connected account inventory, 2026-10-23",
       "url": "https://github.com/enuminous/Mathematics-and-Elite-Squad-Dynamics",
-      "status": "index-only",
+      "status": "metadata-only",
       "rights": "undetermined"
     },
     {
@@ -1040,7 +1121,7 @@
       "note": "",
       "source": "GitHub connected account inventory, 2026-10-23",
       "url": "https://github.com/enuminous/medium",
-      "status": "index-only",
+      "status": "metadata-only",
       "rights": "undetermined"
     },
     {
@@ -1053,7 +1134,7 @@
       "note": "",
       "source": "GitHub connected account inventory, 2026-10-23",
       "url": "https://github.com/enuminous/Medium2",
-      "status": "index-only",
+      "status": "metadata-only",
       "rights": "undetermined"
     },
     {
@@ -1066,7 +1147,7 @@
       "note": "",
       "source": "GitHub connected account inventory, 2026-10-23",
       "url": "https://github.com/enuminous/Medium3",
-      "status": "index-only",
+      "status": "metadata-only",
       "rights": "undetermined"
     },
     {
@@ -1079,7 +1160,7 @@
       "note": "",
       "source": "GitHub connected account inventory, 2026-10-23",
       "url": "https://github.com/enuminous/meta-meme",
-      "status": "index-only",
+      "status": "metadata-only",
       "rights": "undetermined"
     },
     {
@@ -1092,7 +1173,7 @@
       "note": "",
       "source": "GitHub connected account inventory, 2026-10-23",
       "url": "https://github.com/enuminous/Mole",
-      "status": "index-only",
+      "status": "metadata-only",
       "rights": "undetermined"
     },
     {
@@ -1105,7 +1186,7 @@
       "note": "",
       "source": "GitHub connected account inventory, 2026-10-23",
       "url": "https://github.com/enuminous/Monlithic_EFMW_102_Lean4",
-      "status": "index-only",
+      "status": "metadata-only",
       "rights": "undetermined"
     },
     {
@@ -1118,11 +1199,20 @@
       "note": "Canonical catalogue of 102 Monolithic equations; classification is not empirical validation.",
       "source": "GitHub connected account inventory, 2026-10-23",
       "url": "https://github.com/enuminous/Monolithic_102_EFMW",
-      "status": "index-only",
+      "status": "metadata-only",
       "rights": "undetermined",
       "readme": {
         "path": "README.md",
         "gitBlobSha": "2c6513c94dec03540cd3a19993f5902bb38b18ed"
+      },
+      "archive": {
+        "commit": "170679d21aa0f570fda505ee3b03864b717be950",
+        "status": "metadata-only",
+        "treeFiles": 113,
+        "capturedFiles": 0,
+        "capturedBytes": 0,
+        "license": null,
+        "pack": "central-efmw-v1"
       }
     },
     {
@@ -1135,7 +1225,7 @@
       "note": "",
       "source": "GitHub connected account inventory, 2026-10-23",
       "url": "https://github.com/enuminous/Monolithic_Zoo_Run",
-      "status": "index-only",
+      "status": "metadata-only",
       "rights": "undetermined"
     },
     {
@@ -1148,11 +1238,20 @@
       "note": "Formal models and coverage ledger. Its README explicitly limits ME-003 to a flat Cartesian specialization.",
       "source": "GitHub connected account inventory, 2026-10-23",
       "url": "https://github.com/enuminous/Monolithic-102-Zoo-Lean4",
-      "status": "index-only",
+      "status": "metadata-only",
       "rights": "undetermined",
       "readme": {
         "path": "README.md",
         "gitBlobSha": "5f0293adf5b86656518051efe69b873f3ca72b80"
+      },
+      "archive": {
+        "commit": "2ee2abd51cbe25aa54fd6c244dc67f72e5a36085",
+        "status": "metadata-only",
+        "treeFiles": 177,
+        "capturedFiles": 0,
+        "capturedBytes": 0,
+        "license": null,
+        "pack": "central-efmw-v1"
       }
     },
     {
@@ -1165,11 +1264,20 @@
       "note": "Lean-formalized Zoo animal checks; verify current GitHub Actions status before citing builds.",
       "source": "GitHub connected account inventory, 2026-10-23",
       "url": "https://github.com/enuminous/Monolithic-Zoo-Lean4",
-      "status": "index-only",
+      "status": "partially-cached",
       "rights": "undetermined",
       "readme": {
         "path": "README.md",
         "gitBlobSha": "3405f72c4dd355f3e80bd448dc6e2e0c9d10efee"
+      },
+      "archive": {
+        "commit": "15dfb335424e77e1458cd77996f23d074dac0d88",
+        "status": "partially-cached",
+        "treeFiles": 82,
+        "capturedFiles": 80,
+        "capturedBytes": 302722,
+        "license": "MIT",
+        "pack": "central-efmw-v1"
       }
     },
     {
@@ -1182,7 +1290,7 @@
       "note": "Stress and robustness tooling; lowercase repository distinct from Zoo-Monster.",
       "source": "GitHub connected account inventory, 2026-10-23",
       "url": "https://github.com/enuminous/monster",
-      "status": "index-only",
+      "status": "metadata-only",
       "rights": "undetermined"
     },
     {
@@ -1195,7 +1303,7 @@
       "note": "",
       "source": "GitHub connected account inventory, 2026-10-23",
       "url": "https://github.com/enuminous/Moth",
-      "status": "index-only",
+      "status": "metadata-only",
       "rights": "undetermined"
     },
     {
@@ -1208,7 +1316,7 @@
       "note": "",
       "source": "GitHub connected account inventory, 2026-10-23",
       "url": "https://github.com/enuminous/MultiValuedClassicalAction-Lean4",
-      "status": "index-only",
+      "status": "metadata-only",
       "rights": "undetermined"
     },
     {
@@ -1221,7 +1329,7 @@
       "note": "",
       "source": "GitHub connected account inventory, 2026-10-23",
       "url": "https://github.com/enuminous/Multiverse-Simulator",
-      "status": "index-only",
+      "status": "metadata-only",
       "rights": "undetermined"
     },
     {
@@ -1234,7 +1342,7 @@
       "note": "",
       "source": "GitHub connected account inventory, 2026-10-23",
       "url": "https://github.com/enuminous/Nightengale",
-      "status": "index-only",
+      "status": "metadata-only",
       "rights": "undetermined"
     },
     {
@@ -1247,7 +1355,7 @@
       "note": "",
       "source": "GitHub connected account inventory, 2026-10-23",
       "url": "https://github.com/enuminous/Nightengale-Full-Zoo-Audit",
-      "status": "index-only",
+      "status": "metadata-only",
       "rights": "undetermined"
     },
     {
@@ -1260,7 +1368,7 @@
       "note": "",
       "source": "GitHub connected account inventory, 2026-10-23",
       "url": "https://github.com/enuminous/Octopus",
-      "status": "index-only",
+      "status": "metadata-only",
       "rights": "undetermined"
     },
     {
@@ -1273,7 +1381,7 @@
       "note": "",
       "source": "GitHub connected account inventory, 2026-10-23",
       "url": "https://github.com/enuminous/OpenAI-math",
-      "status": "index-only",
+      "status": "metadata-only",
       "rights": "undetermined"
     },
     {
@@ -1286,7 +1394,7 @@
       "note": "",
       "source": "GitHub connected account inventory, 2026-10-23",
       "url": "https://github.com/enuminous/oph-lab",
-      "status": "index-only",
+      "status": "metadata-only",
       "rights": "undetermined"
     },
     {
@@ -1299,7 +1407,7 @@
       "note": "",
       "source": "GitHub connected account inventory, 2026-10-23",
       "url": "https://github.com/enuminous/Orca",
-      "status": "index-only",
+      "status": "metadata-only",
       "rights": "undetermined"
     },
     {
@@ -1312,11 +1420,20 @@
       "note": "Exact recurrences, normalized two-cycle, and a Lean theorem catalogue.",
       "source": "GitHub connected account inventory, 2026-10-23",
       "url": "https://github.com/enuminous/Oroboros",
-      "status": "index-only",
+      "status": "metadata-only",
       "rights": "undetermined",
       "readme": {
         "path": "README.md",
         "gitBlobSha": "de90a943625edff7b6c01bb37a7989939aa59082"
+      },
+      "archive": {
+        "commit": "72958ea6f3faaab07ad64ab9db8818362da370bb",
+        "status": "metadata-only",
+        "treeFiles": 39,
+        "capturedFiles": 0,
+        "capturedBytes": 0,
+        "license": null,
+        "pack": "central-efmw-v1"
       }
     },
     {
@@ -1329,7 +1446,7 @@
       "note": "",
       "source": "GitHub connected account inventory, 2026-10-23",
       "url": "https://github.com/enuminous/Owl",
-      "status": "index-only",
+      "status": "metadata-only",
       "rights": "undetermined"
     },
     {
@@ -1342,7 +1459,7 @@
       "note": "",
       "source": "GitHub connected account inventory, 2026-10-23",
       "url": "https://github.com/enuminous/P-NP",
-      "status": "index-only",
+      "status": "metadata-only",
       "rights": "undetermined"
     },
     {
@@ -1355,7 +1472,7 @@
       "note": "Papers and prose archive; individual claims require separate evidentiary assessment.",
       "source": "GitHub connected account inventory, 2026-10-23",
       "url": "https://github.com/enuminous/papers",
-      "status": "index-only",
+      "status": "metadata-only",
       "rights": "undetermined",
       "readme": {
         "path": "README.md",
@@ -1372,7 +1489,7 @@
       "note": "",
       "source": "GitHub connected account inventory, 2026-10-23",
       "url": "https://github.com/enuminous/Penguin",
-      "status": "index-only",
+      "status": "metadata-only",
       "rights": "undetermined"
     },
     {
@@ -1385,7 +1502,7 @@
       "note": "",
       "source": "GitHub connected account inventory, 2026-10-23",
       "url": "https://github.com/enuminous/Phoenix",
-      "status": "index-only",
+      "status": "metadata-only",
       "rights": "undetermined"
     },
     {
@@ -1398,7 +1515,7 @@
       "note": "",
       "source": "GitHub connected account inventory, 2026-10-23",
       "url": "https://github.com/enuminous/Pulse",
-      "status": "index-only",
+      "status": "metadata-only",
       "rights": "undetermined"
     },
     {
@@ -1411,7 +1528,7 @@
       "note": "Work related to Ramtastic, originally associated with Chris Forrester; distinguish contributors and licensing.",
       "source": "GitHub connected account inventory, 2026-10-23",
       "url": "https://github.com/enuminous/Ramtastic",
-      "status": "index-only",
+      "status": "metadata-only",
       "rights": "undetermined"
     },
     {
@@ -1424,7 +1541,7 @@
       "note": "",
       "source": "GitHub connected account inventory, 2026-10-23",
       "url": "https://github.com/enuminous/Raven",
-      "status": "index-only",
+      "status": "metadata-only",
       "rights": "undetermined"
     },
     {
@@ -1437,7 +1554,7 @@
       "note": "",
       "source": "GitHub connected account inventory, 2026-10-23",
       "url": "https://github.com/enuminous/Research-Program",
-      "status": "index-only",
+      "status": "metadata-only",
       "rights": "undetermined"
     },
     {
@@ -1450,7 +1567,7 @@
       "note": "",
       "source": "GitHub connected account inventory, 2026-10-23",
       "url": "https://github.com/enuminous/Rhino",
-      "status": "index-only",
+      "status": "metadata-only",
       "rights": "undetermined"
     },
     {
@@ -1463,7 +1580,7 @@
       "note": "",
       "source": "GitHub connected account inventory, 2026-10-23",
       "url": "https://github.com/enuminous/Salmon",
-      "status": "index-only",
+      "status": "metadata-only",
       "rights": "undetermined"
     },
     {
@@ -1476,7 +1593,7 @@
       "note": "",
       "source": "GitHub connected account inventory, 2026-10-23",
       "url": "https://github.com/enuminous/Shark",
-      "status": "index-only",
+      "status": "metadata-only",
       "rights": "undetermined"
     },
     {
@@ -1489,7 +1606,7 @@
       "note": "",
       "source": "GitHub connected account inventory, 2026-10-23",
       "url": "https://github.com/enuminous/Shepherd",
-      "status": "index-only",
+      "status": "metadata-only",
       "rights": "undetermined"
     },
     {
@@ -1502,7 +1619,7 @@
       "note": "",
       "source": "GitHub connected account inventory, 2026-10-23",
       "url": "https://github.com/enuminous/simself",
-      "status": "index-only",
+      "status": "metadata-only",
       "rights": "undetermined"
     },
     {
@@ -1515,7 +1632,7 @@
       "note": "",
       "source": "GitHub connected account inventory, 2026-10-23",
       "url": "https://github.com/enuminous/Spider",
-      "status": "index-only",
+      "status": "metadata-only",
       "rights": "undetermined"
     },
     {
@@ -1528,7 +1645,7 @@
       "note": "",
       "source": "GitHub connected account inventory, 2026-10-23",
       "url": "https://github.com/enuminous/Termite",
-      "status": "index-only",
+      "status": "metadata-only",
       "rights": "undetermined"
     },
     {
@@ -1541,7 +1658,7 @@
       "note": "Zoo entry point.",
       "source": "GitHub connected account inventory, 2026-10-23",
       "url": "https://github.com/enuminous/Tortoise",
-      "status": "index-only",
+      "status": "metadata-only",
       "rights": "undetermined"
     },
     {
@@ -1554,7 +1671,7 @@
       "note": "",
       "source": "GitHub connected account inventory, 2026-10-23",
       "url": "https://github.com/enuminous/Turtle",
-      "status": "index-only",
+      "status": "metadata-only",
       "rights": "undetermined"
     },
     {
@@ -1567,7 +1684,7 @@
       "note": "",
       "source": "GitHub connected account inventory, 2026-10-23",
       "url": "https://github.com/enuminous/Universal-Cognitive-Attractor",
-      "status": "index-only",
+      "status": "metadata-only",
       "rights": "undetermined"
     },
     {
@@ -1580,7 +1697,7 @@
       "note": "",
       "source": "GitHub connected account inventory, 2026-10-23",
       "url": "https://github.com/enuminous/Universe5",
-      "status": "index-only",
+      "status": "metadata-only",
       "rights": "undetermined"
     },
     {
@@ -1593,7 +1710,7 @@
       "note": "",
       "source": "GitHub connected account inventory, 2026-10-23",
       "url": "https://github.com/enuminous/Verbinski-Protocol",
-      "status": "index-only",
+      "status": "metadata-only",
       "rights": "undetermined"
     },
     {
@@ -1606,7 +1723,7 @@
       "note": "",
       "source": "GitHub connected account inventory, 2026-10-23",
       "url": "https://github.com/enuminous/Weasel",
-      "status": "index-only",
+      "status": "metadata-only",
       "rights": "undetermined"
     },
     {
@@ -1619,7 +1736,7 @@
       "note": "OS/prototype collaboration; verify provenance and licensing before redistribution.",
       "source": "GitHub connected account inventory, 2026-10-23",
       "url": "https://github.com/enuminous/Weaver_Os",
-      "status": "index-only",
+      "status": "metadata-only",
       "rights": "undetermined"
     },
     {
@@ -1632,7 +1749,7 @@
       "note": "",
       "source": "GitHub connected account inventory, 2026-10-23",
       "url": "https://github.com/enuminous/Whale",
-      "status": "index-only",
+      "status": "metadata-only",
       "rights": "undetermined"
     },
     {
@@ -1645,7 +1762,7 @@
       "note": "",
       "source": "GitHub connected account inventory, 2026-10-23",
       "url": "https://github.com/enuminous/Wolf",
-      "status": "index-only",
+      "status": "metadata-only",
       "rights": "undetermined"
     },
     {
@@ -1658,7 +1775,7 @@
       "note": "",
       "source": "GitHub connected account inventory, 2026-10-23",
       "url": "https://github.com/enuminous/woodpecker",
-      "status": "index-only",
+      "status": "metadata-only",
       "rights": "undetermined"
     },
     {
@@ -1671,7 +1788,7 @@
       "note": "",
       "source": "GitHub connected account inventory, 2026-10-23",
       "url": "https://github.com/enuminous/Wrights-Law",
-      "status": "index-only",
+      "status": "metadata-only",
       "rights": "undetermined"
     },
     {
@@ -1684,8 +1801,24 @@
       "note": "Additional Zoo robustness project.",
       "source": "GitHub connected account inventory, 2026-10-23",
       "url": "https://github.com/enuminous/Zoo-Monster",
-      "status": "index-only",
-      "rights": "undetermined"
+      "status": "fully-mirrored",
+      "rights": "undetermined",
+      "archive": {
+        "commit": "6d75d1280eb03d66f8e12b484ec3c3e38d76909c",
+        "status": "fully-mirrored",
+        "treeFiles": 10,
+        "capturedFiles": 10,
+        "capturedBytes": 24991,
+        "license": "CC0-1.0",
+        "pack": "central-efmw-v1"
+      }
     }
-  ]
+  ],
+  "sourcePack": {
+    "id": "central-efmw-v1",
+    "bundleFile": "central-efmw-v1.bundle.json",
+    "bundleSha256": "66d104ef01dcf12a2daa387dde0be17a4d42bb587e55de74f3a96f5ed03142ed",
+    "capturedFiles": 99,
+    "capturedBytes": 352723
+  }
 }

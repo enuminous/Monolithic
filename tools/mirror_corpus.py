@@ -61,6 +61,9 @@ def scan_repo(repo,target,args,remain):
 
 def main():
     parser=argparse.ArgumentParser(description=__doc__)
+    parser.add_argument('--lock',type=Path,help='Build a reviewed source pack from exact commit and path pins')
+    parser.add_argument('--source-root',type=Path,default=ROOT/'mirror_output'/'working_clones',help='Local Git object stores for locked mode')
+    parser.add_argument('--fetch',action='store_true',help='In locked mode, explicitly fetch exact commits from GitHub')
     parser.add_argument('--plan',action='store_true',help='Only list target repositories and reported sizes; no network')
     parser.add_argument('--repo',action='append',help='Restrict to name(s), e.g. --repo EFMW --repo papers')
     parser.add_argument('--out',type=Path,default=ROOT/'mirror_output')
@@ -71,6 +74,14 @@ def main():
     parser.add_argument('--unbounded',action='store_true',help='Remove size caps, may need gigabytes of disk and time')
     parser.add_argument('--keep-clones',action='store_true')
     a=parser.parse_args()
+    if a.lock:
+        if a.plan or a.repo or a.unbounded:
+            parser.error('--lock cannot be combined with --plan, --repo or --unbounded')
+        from source_pack import build_pack
+        build_pack(a.lock,a.source_root,a.out,a.fetch)
+        return 0
+    if a.fetch:
+        parser.error('--fetch requires --lock')
     catalog=json.loads((ROOT/'corpus-index.json').read_text())
     wanted=set(a.repo or [])
     repos=[r for r in catalog['repositories'] if not wanted or r['name'] in wanted]

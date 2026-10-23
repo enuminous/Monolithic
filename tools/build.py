@@ -182,10 +182,25 @@ for line in RAW.strip().splitlines():
  rows.append(item)
 assert len(rows)==126 and len({x['id'] for x in rows})==126
 inventory={'@context':{'@vocab':'https://schema.org/','id':'@id','type':'@type'},'app':'Monolithic Atlas','snapshotDate':'2026-10-23','scope':'126 public repositories accessible in GitHub search for user:enuminous. Metadata only; complete file contents NOT mirrored.','license':'No blanket license inferred. Original per-repository rights and contribution terms apply.','repositories':rows}
+report_path=ROOT/'source-packs/central-efmw-v1.report.json'
+if report_path.exists():
+ report=json.loads(report_path.read_text())
+ inventory['scope']='126 repository metadata records; central-efmw-v1 is a separate, bounded source pack. See per-repository archive coverage. The HTML alone contains no source files.'
+ inventory['sourcePack']={k:report[k] for k in ('id','bundleFile','bundleSha256','capturedFiles','capturedBytes')}
+ coverage={r['repo']:r for r in report['repositories']}
+ for item in rows:
+  item['status']='metadata-only'
+  if item['id'] in coverage:
+   c=coverage[item['id']]
+   item['archive']={k:c[k] for k in ('commit','status','treeFiles','capturedFiles','capturedBytes')}
+   item['archive']['license']=c['license']['spdx']
+   item['archive']['pack']=report['id']
+   item['status']=c['status']
 (ROOT/'corpus-index.json').write_text(json.dumps(inventory,indent=2,ensure_ascii=False)+'\n')
 import base64
 html=(ROOT/'template.html').read_text().replace('/*__CORPUS_JSON__*/',json.dumps(inventory,ensure_ascii=False,separators=(',',':')).replace('</','<\\/'))
 wasm=(ROOT/'tools/crc.wasm').read_bytes()
 html=html.replace('/*__WASM_BASE64__*/',base64.b64encode(wasm).decode('ascii'))
+html=html.replace('/*__SOURCE_ARCHIVE__*/',(ROOT/'tools/source_archive.js').read_text())
 (ROOT/'index.html').write_text(html)
 print('Built',len(rows),'repos; index.html', (ROOT/'index.html').stat().st_size,'bytes')

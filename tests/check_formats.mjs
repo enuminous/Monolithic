@@ -29,7 +29,7 @@ const wasm=(await WebAssembly.instantiate(Buffer.from(wasm64,'base64'))).instanc
 const test=Buffer.from('123456789');
 new Uint8Array(wasm.exports.memory.buffer).set(test,0);
 assert.equal(wasm.exports.crc32(0,test.length)>>>0,0xcbf43926);
-const a=await vm.runInContext(`(async()=>{getAllFiles=async()=>[];return await buildArchive()})()`,ctx);
+const a=await vm.runInContext(`(async()=>{getAllFiles=async()=>[];getArchives=async()=>[];return await buildArchive()})()`,ctx);
 assert.equal(a.blocks.length,1);
 assert.equal(a.root.repositories.length,126);
 assert.equal(a.root.files.length,0);

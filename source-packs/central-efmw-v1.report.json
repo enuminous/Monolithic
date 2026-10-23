@@ -1,0 +1,3405 @@
+{
+  "bundleFile": "central-efmw-v1.bundle.json",
+  "bundleSha256": "66d104ef01dcf12a2daa387dde0be17a4d42bb587e55de74f3a96f5ed03142ed",
+  "capturedBytes": 352723,
+  "capturedFiles": 99,
+  "format": "monolithic-source-report-v1",
+  "id": "central-efmw-v1",
+  "lockSha256": "7a12eef2cd7e720e88d1578428a3352c881a0e9cfda5fce87c0f23fc13368bca",
+  "repositories": [
+    {
+      "capturedBytes": 25010,
+      "capturedFiles": 9,
+      "commit": "892f0d5498b5ec0369691f31a058871675e64b43",
+      "gitTreeSha": "d101663839053125e2e17548b61c6202a707ae76",
+      "license": {
+        "basis": "Repository CC0 1.0 notice retained; source imports reference dependencies but do not bundle them.",
+        "gitBlobSha": "e718669dd73de713dbca9dc7e07b64627d63dd7a",
+        "path": "LICENSE",
+        "spdx": "CC0-1.0"
+      },
+      "omitted": [],
+      "repo": "enuminous/Circus",
+      "status": "fully-mirrored",
+      "treeFiles": 9
+    },
+    {
+      "capturedBytes": 0,
+      "capturedFiles": 0,
+      "commit": "2ec5cfb7cb98e36d7bba01552a74aa4d610e07c3",
+      "gitTreeSha": "b85620a83a97d5411cfe0cde7b3426ad4517ae55",
+      "license": {
+        "basis": "No applicable repository-wide redistribution grant established; source bytes withheld.",
+        "paths": [],
+        "spdx": null
+      },
+      "omitted": [
+        {
+          "path": ".github/workflows/verify.yml",
+          "reason": "Redistribution permission not established for this pack."
+        },
+        {
+          "path": ".gitignore",
+          "reason": "Redistribution permission not established for this pack."
+        },
+        {
+          "path": "DEVS2-Protocol.md",
+          "reason": "Redistribution permission not established for this pack."
+        },
+        {
+          "path": "Devs.lean",
+          "reason": "Redistribution permission not established for this pack."
+        },
+        {
+          "path": "Devs/Agency.lean",
+          "reason": "Redistribution permission not established for this pack."
+        },
+        {
+          "path": "Devs/Audit.lean",
+          "reason": "Redistribution permission not established for this pack."
+        },
+        {
+          "path": "Devs/Benchmark.lean",
+          "reason": "Redistribution permission not established for this pack."
+        },
+        {
+          "path": "Devs/Budget.lean",
+          "reason": "Redistribution permission not established for this pack."
+        },
+        {
+          "path": "Devs/Criticism.lean",
+          "reason": "Redistribution permission not established for this pack."
+        },
+        {
+          "path": "Devs/Possibility.lean",
+          "reason": "Redistribution permission not established for this pack."
+        },
+        {
+          "path": "Devs/Provenance.lean",
+          "reason": "Redistribution permission not established for this pack."
+        },
+        {
+          "path": "Devs/Uncertainty.lean",
+          "reason": "Redistribution permission not established for this pack."
+        },
+        {
+          "path": "Devs2.0-EFMW.md",
+          "reason": "Redistribution permission not established for this pack."
+        },
+        {
+          "path": "IMPORT.json",
+          "reason": "Redistribution permission not established for this pack."
+        },
+        {
+          "path": "Main.lean",
+          "reason": "Redistribution permission not established for this pack."
+        },
+        {
+          "path": "README.md",
+          "reason": "Redistribution permission not established for this pack."
+        },
+        {
+          "path": "bench.py",
+          "reason": "Redistribution permission not established for this pack."
+        },
+        {
+          "path": "docs/ARCHITECTURE.md",
+          "reason": "Redistribution permission not established for this pack."
+        },
+        {
+          "path": "docs/DEPLOYMENT.md",
+          "reason": "Redistribution permission not established for this pack."
+        },
+        {
+          "path": "docs/DESIGN_REVIEW.md",
+          "reason": "Redistribution permission not established for this pack."
+        },
+        {
+          "path": "docs/IMPORT.md",
+          "reason": "Redistribution permission not established for this pack."
+        },
+        {
+          "path": "docs/MATHEMATICS.md",
+          "reason": "Redistribution permission not established for this pack."
+        },
+        {
+          "path": "docs/screenshots/desktop.jpg",
+          "reason": "Redistribution permission not established for this pack."
+        },
+        {
+          "path": "docs/theorems.json",
+          "reason": "Redistribution permission not established for this pack."
+        },
+        {
+          "path": "index.html",
+          "reason": "Redistribution permission not established for this pack."
+        },
+        {
+          "path": "lake-manifest.json",
+          "reason": "Redistribution permission not established for this pack."
+        },
+        {
+          "path": "lakefile.toml",
+          "reason": "Redistribution permission not established for this pack."
+        },
+        {
+          "path": "lean-toolchain",
+          "reason": "Redistribution permission not established for this pack."
+        },
+        {
+          "path": "package.json",
+          "reason": "Redistribution permission not established for this pack."
+        },
+        {
+          "path": "research/dev2-001/.gitignore",
+          "reason": "Redistribution permission not established for this pack."
+        },
+        {
+          "path": "research/dev2-001/APPROVALS.md",
+          "reason": "Redistribution permission not established for this pack."
+        },
+        {
+          "path": "research/dev2-001/CONFIG.json",
+          "reason": "Redistribution permission not established for this pack."
+        },
+        {
+          "path": "research/dev2-001/CORPUS.json",
+          "reason": "Redistribution permission not established for this pack."
+        },
+        {
+          "path": "research/dev2-001/DESIGN.md",
+          "reason": "Redistribution permission not established for this pack."
+        },
+        {
+          "path": "research/dev2-001/PROTOCOL.md",
+          "reason": "Redistribution permission not established for this pack."
+        },
+        {
+          "path": "research/dev2-001/QUESTIONS.json",
+          "reason": "Redistribution permission not established for this pack."
+        },
+        {
+          "path": "research/dev2-001/QUESTIONS.schema.json",
+          "reason": "Redistribution permission not established for this pack."
+        },
+        {
+          "path": "research/dev2-001/README.md",
+          "reason": "Redistribution permission not established for this pack."
+        },
+        {
+          "path": "research/dev2-001/REPRODUCIBILITY.md",
+          "reason": "Redistribution permission not established for this pack."
+        },
+        {
+          "path": "research/dev2-001/RUN.md",
+          "reason": "Redistribution permission not established for this pack."
+        },
+        {
+          "path": "research/dev2-001/SCORING.md",
+          "reason": "Redistribution permission not established for this pack."
+        },
+        {
+          "path": "research/dev2-001/SOURCE_AUDIT.md",
+          "reason": "Redistribution permission not established for this pack."
+        },
+        {
+          "path": "research/dev2-001/THRESHOLDS.json",
+          "reason": "Redistribution permission not established for this pack."
+        },
+        {
+          "path": "research/dev2-001/adapters/fixture.py",
+          "reason": "Redistribution permission not established for this pack."
+        },
+        {
+          "path": "research/dev2-001/adapters/gateway.py",
+          "reason": "Redistribution permission not established for this pack."
+        },
+        {
+          "path": "research/dev2-001/analyze.py",
+          "reason": "Redistribution permission not established for this pack."
+        },
+        {
+          "path": "research/dev2-001/arms/A-plain.txt",
+          "reason": "Redistribution permission not established for this pack."
+        },
+        {
+          "path": "research/dev2-001/arms/B-status.txt",
+          "reason": "Redistribution permission not established for this pack."
+        },
+        {
+          "path": "research/dev2-001/arms/C-critic.txt",
+          "reason": "Redistribution permission not established for this pack."
+        },
+        {
+          "path": "research/dev2-001/arms/C-revise.txt",
+          "reason": "Redistribution permission not established for this pack."
+        },
+        {
+          "path": "research/dev2-001/arms/D-cite-abstain.txt",
+          "reason": "Redistribution permission not established for this pack."
+        },
+        {
+          "path": "research/dev2-001/arms/E-feedback.txt",
+          "reason": "Redistribution permission not established for this pack."
+        },
+        {
+          "path": "research/dev2-001/arms/E-revise.txt",
+          "reason": "Redistribution permission not established for this pack."
+        },
+        {
+          "path": "research/dev2-001/arms/common.txt",
+          "reason": "Redistribution permission not established for this pack."
+        },
+        {
+          "path": "research/dev2-001/core.py",
+          "reason": "Redistribution permission not established for this pack."
+        },
+        {
+          "path": "research/dev2-001/corpus/continuum.md",
+          "reason": "Redistribution permission not established for this pack."
+        },
+        {
+          "path": "research/dev2-001/corpus/devs.md",
+          "reason": "Redistribution permission not established for this pack."
+        },
+        {
+          "path": "research/dev2-001/corpus/f001.md",
+          "reason": "Redistribution permission not established for this pack."
+        },
+        {
+          "path": "research/dev2-001/corpus/grid005.md",
+          "reason": "Redistribution permission not established for this pack."
+        },
+        {
+          "path": "research/dev2-001/corpus/me003-initial.md",
+          "reason": "Redistribution permission not established for this pack."
+        },
+        {
+          "path": "research/dev2-001/corpus/me003.md",
+          "reason": "Redistribution permission not established for this pack."
+        },
+        {
+          "path": "research/dev2-001/corpus/monitoring.md",
+          "reason": "Redistribution permission not established for this pack."
+        },
+        {
+          "path": "research/dev2-001/corpus/r001-initial.md",
+          "reason": "Redistribution permission not established for this pack."
+        },
+        {
+          "path": "research/dev2-001/corpus/r001.md",
+          "reason": "Redistribution permission not established for this pack."
+        },
+        {
+          "path": "research/dev2-001/corpus/weaver.md",
+          "reason": "Redistribution permission not established for this pack."
+        },
+        {
+          "path": "research/dev2-001/development/QUESTIONS.json",
+          "reason": "Redistribution permission not established for this pack."
+        },
+        {
+          "path": "research/dev2-001/planning.py",
+          "reason": "Redistribution permission not established for this pack."
+        },
+        {
+          "path": "research/dev2-001/prepare.py",
+          "reason": "Redistribution permission not established for this pack."
+        },
+        {
+          "path": "research/dev2-001/run.py",
+          "reason": "Redistribution permission not established for this pack."
+        },
+        {
+          "path": "research/dev2-001/score.py",
+          "reason": "Redistribution permission not established for this pack."
+        },
+        {
+          "path": "research/dev2-001/tests/test_dev2.py",
+          "reason": "Redistribution permission not established for this pack."
+        },
+        {
+          "path": "research/dev2-001/tests/test_transport.py",
+          "reason": "Redistribution permission not established for this pack."
+        },
+        {
+          "path": "reviews/dev2-001-2026-10-23/BASELINE_MANIFEST.json",
+          "reason": "Redistribution permission not established for this pack."
+        },
+        {
+          "path": "reviews/dev2-001-2026-10-23/CONFLICT_SCREENING.json",
+          "reason": "Redistribution permission not established for this pack."
+        },
+        {
+          "path": "reviews/dev2-001-2026-10-23/CONFLICT_SCREENING.md",
+          "reason": "Redistribution permission not established for this pack."
+        },
+        {
+          "path": "reviews/dev2-001-2026-10-23/ENGAGEMENT_QUESTIONS.md",
+          "reason": "Redistribution permission not established for this pack."
+        },
+        {
+          "path": "reviews/dev2-001-2026-10-23/HISTORY_CENSUS.json",
+          "reason": "Redistribution permission not established for this pack."
+        },
+        {
+          "path": "reviews/dev2-001-2026-10-23/HUMAN_SCORING.md",
+          "reason": "Redistribution permission not established for this pack."
+        },
+        {
+          "path": "reviews/dev2-001-2026-10-23/METHODS_REVIEW.md",
+          "reason": "Redistribution permission not established for this pack."
+        },
+        {
+          "path": "reviews/dev2-001-2026-10-23/PLANNING_OUTPUT.json",
+          "reason": "Redistribution permission not established for this pack."
+        },
+        {
+          "path": "reviews/dev2-001-2026-10-23/QUESTION_REVIEW_WORKSHEET.json",
+          "reason": "Redistribution permission not established for this pack."
+        },
+        {
+          "path": "reviews/dev2-001-2026-10-23/READINESS_SNAPSHOT.json",
+          "reason": "Redistribution permission not established for this pack."
+        },
+        {
+          "path": "reviews/dev2-001-2026-10-23/README.md",
+          "reason": "Redistribution permission not established for this pack."
+        },
+        {
+          "path": "reviews/dev2-001-2026-10-23/REPRODUCTION_CHECKLIST.md",
+          "reason": "Redistribution permission not established for this pack."
+        },
+        {
+          "path": "reviews/dev2-001-2026-10-23/SCOPE.md",
+          "reason": "Redistribution permission not established for this pack."
+        },
+        {
+          "path": "reviews/dev2-001-2026-10-23/SOURCE_CORRECTIONS.md",
+          "reason": "Redistribution permission not established for this pack."
+        },
+        {
+          "path": "reviews/dev2-001-2026-10-23/evidence/107fed78-ME-003_Flat_Minkowski_Specialization_Discovery.md",
+          "reason": "Redistribution permission not established for this pack."
+        },
+        {
+          "path": "reviews/dev2-001-2026-10-23/evidence/1b8b1f85-Devs2.0-EFMW.md",
+          "reason": "Redistribution permission not established for this pack."
+        },
+        {
+          "path": "reviews/dev2-001-2026-10-23/evidence/2e7d8136-EFMW-Zoo-R001-Primordial-Recursion-Boundary.md",
+          "reason": "Redistribution permission not established for this pack."
+        },
+        {
+          "path": "reviews/dev2-001-2026-10-23/evidence/471a9a24-EFMW-Zoo-R001-Primordial-Recursion-Boundary.md",
+          "reason": "Redistribution permission not established for this pack."
+        },
+        {
+          "path": "reviews/dev2-001-2026-10-23/evidence/56f7d321-ME-003_Flat_Minkowski_Specialization_Discovery.md",
+          "reason": "Redistribution permission not established for this pack."
+        },
+        {
+          "path": "reviews/dev2-001-2026-10-23/evidence/999bc947-Devs2.0-EFMW.md",
+          "reason": "Redistribution permission not established for this pack."
+        },
+        {
+          "path": "reviews/dev2-001-2026-10-23/evidence/a10f4b35-EFMW-Zoo-R001-Primordial-Recursion-Boundary.md",
+          "reason": "Redistribution permission not established for this pack."
+        },
+        {
+          "path": "reviews/dev2-001-2026-10-23/verify_packet.py",
+          "reason": "Redistribution permission not established for this pack."
+        },
+        {
+          "path": "scripts/build_site.py",
+          "reason": "Redistribution permission not established for this pack."
+        },
+        {
+          "path": "scripts/check_lean.py",
+          "reason": "Redistribution permission not established for this pack."
+        },
+        {
+          "path": "scripts/tag_checkpoint.py",
+          "reason": "Redistribution permission not established for this pack."
+        },
+        {
+          "path": "scripts/verify.py",
+          "reason": "Redistribution permission not established for this pack."
+        },
+        {
+          "path": "tests/engine.test.mjs",
+          "reason": "Redistribution permission not established for this pack."
+        },
+        {
+          "path": "tests/test_checkpoint.py",
+          "reason": "Redistribution permission not established for this pack."
+        },
+        {
+          "path": "verification/README.md",
+          "reason": "Redistribution permission not established for this pack."
+        },
+        {
+          "path": "verification/dev2-001-v0.2-draft.json",
+          "reason": "Redistribution permission not established for this pack."
+        },
+        {
+          "path": "verification/hosted-build.json",
+          "reason": "Redistribution permission not established for this pack."
+        },
+        {
+          "path": "web/app.js",
+          "reason": "Redistribution permission not established for this pack."
+        },
+        {
+          "path": "web/engine.js",
+          "reason": "Redistribution permission not established for this pack."
+        },
+        {
+          "path": "web/source-corrections.json",
+          "reason": "Redistribution permission not established for this pack."
+        },
+        {
+          "path": "web/style.css",
+          "reason": "Redistribution permission not established for this pack."
+        },
+        {
+          "path": "web/template.html",
+          "reason": "Redistribution permission not established for this pack."
+        }
+      ],
+      "repo": "enuminous/Devs2.0",
+      "status": "metadata-only",
+      "treeFiles": 108
+    },
+    {
+      "capturedBytes": 0,
+      "capturedFiles": 0,
+      "commit": "cae1b1b9518af9dddc8ab9f09d391645e611847c",
+      "gitTreeSha": "fe99671ce4ceffa69c2de917395d03e24b4660fe",
+      "license": {
+        "basis": "No applicable repository-wide redistribution grant established; source bytes withheld.",
+        "paths": [],
+        "spdx": null
+      },
+      "omitted": [
+        {
+          "path": ".gitignore",
+          "reason": "Redistribution permission not established for this pack."
+        },
+        {
+          "path": "MillieComplex EFMW AGI.py",
+          "reason": "Redistribution permission not established for this pack."
+        },
+        {
+          "path": "README.md",
+          "reason": "Redistribution permission not established for this pack."
+        },
+        {
+          "path": "dev-server-3001.log",
+          "reason": "Redistribution permission not established for this pack."
+        },
+        {
+          "path": "dev-server.err.log",
+          "reason": "Redistribution permission not established for this pack."
+        },
+        {
+          "path": "dev-server.log",
+          "reason": "Redistribution permission not established for this pack."
+        },
+        {
+          "path": "index.html",
+          "reason": "Redistribution permission not established for this pack."
+        },
+        {
+          "path": "next-env.d.ts",
+          "reason": "Redistribution permission not established for this pack."
+        },
+        {
+          "path": "next.config.mjs",
+          "reason": "Redistribution permission not established for this pack."
+        },
+        {
+          "path": "package-lock.json",
+          "reason": "Redistribution permission not established for this pack."
+        },
+        {
+          "path": "package.json",
+          "reason": "Redistribution permission not established for this pack."
+        },
+        {
+          "path": "postcss.config.mjs",
+          "reason": "Redistribution permission not established for this pack."
+        },
+        {
+          "path": "repositories.html",
+          "reason": "Redistribution permission not established for this pack."
+        },
+        {
+          "path": "repositories.json",
+          "reason": "Redistribution permission not established for this pack."
+        },
+        {
+          "path": "server-3002.err.log",
+          "reason": "Redistribution permission not established for this pack."
+        },
+        {
+          "path": "server-3002.log",
+          "reason": "Redistribution permission not established for this pack."
+        },
+        {
+          "path": "tailwind.config.ts",
+          "reason": "Redistribution permission not established for this pack."
+        },
+        {
+          "path": "tsconfig.json",
+          "reason": "Redistribution permission not established for this pack."
+        }
+      ],
+      "repo": "enuminous/EFMW",
+      "status": "metadata-only",
+      "treeFiles": 18
+    },
+    {
+      "capturedBytes": 0,
+      "capturedFiles": 0,
+      "commit": "248dcbf323b8ee3f25ccfcf346d29516d77019a1",
+      "gitTreeSha": "7b738b8d396ed9439ba524fd02c43ab6c7cd8d0b",
+      "license": {
+        "basis": "No applicable repository-wide redistribution grant established; source bytes withheld.",
+        "paths": [],
+        "spdx": null
+      },
+      "omitted": [
+        {
+          "path": ".github/workflows/lean.yml",
+          "reason": "Redistribution permission not established for this pack."
+        },
+        {
+          "path": ".gitignore",
+          "reason": "Redistribution permission not established for this pack."
+        },
+        {
+          "path": "Audit.lean",
+          "reason": "Redistribution permission not established for this pack."
+        },
+        {
+          "path": "EFMWAxioms.lean",
+          "reason": "Redistribution permission not established for this pack."
+        },
+        {
+          "path": "EFMWAxioms/Axioms.lean",
+          "reason": "Redistribution permission not established for this pack."
+        },
+        {
+          "path": "EFMWAxioms/Main.lean",
+          "reason": "Redistribution permission not established for this pack."
+        },
+        {
+          "path": "PAPER.md",
+          "reason": "Redistribution permission not established for this pack."
+        },
+        {
+          "path": "README.md",
+          "reason": "Redistribution permission not established for this pack."
+        },
+        {
+          "path": "VERIFICATION.md",
+          "reason": "Redistribution permission not established for this pack."
+        },
+        {
+          "path": "index.html",
+          "reason": "Redistribution permission not established for this pack."
+        },
+        {
+          "path": "lake-manifest.json",
+          "reason": "Redistribution permission not established for this pack."
+        },
+        {
+          "path": "lakefile.toml",
+          "reason": "Redistribution permission not established for this pack."
+        },
+        {
+          "path": "lean-toolchain",
+          "reason": "Redistribution permission not established for this pack."
+        },
+        {
+          "path": "scripts/test_axiom_audit.py",
+          "reason": "Redistribution permission not established for this pack."
+        }
+      ],
+      "repo": "enuminous/EFMW-Axioms",
+      "status": "metadata-only",
+      "treeFiles": 14
+    },
+    {
+      "capturedBytes": 0,
+      "capturedFiles": 0,
+      "commit": "65134993069c2dc0c46a60fccd8bcdb2d951cdd3",
+      "gitTreeSha": "721010302ae4a076157d41004df75dbcce58fcf0",
+      "license": {
+        "basis": "No applicable repository-wide redistribution grant established; source bytes withheld.",
+        "paths": [],
+        "spdx": null
+      },
+      "omitted": [
+        {
+          "path": "ABLATIONS.csv",
+          "reason": "Redistribution permission not established for this pack."
+        },
+        {
+          "path": "ANALYSIS_FREEZE_SHA256.txt",
+          "reason": "Redistribution permission not established for this pack."
+        },
+        {
+          "path": "ANALYSIS_PLAN.md",
+          "reason": "Redistribution permission not established for this pack."
+        },
+        {
+          "path": "BASELINES.csv",
+          "reason": "Redistribution permission not established for this pack."
+        },
+        {
+          "path": "CALIBRATION_SEEDS.txt",
+          "reason": "Redistribution permission not established for this pack."
+        },
+        {
+          "path": "CHANGELOG.md",
+          "reason": "Redistribution permission not established for this pack."
+        },
+        {
+          "path": "CONFIRMATORY_RECONCILIATION.md",
+          "reason": "Redistribution permission not established for this pack."
+        },
+        {
+          "path": "CONFIRMATORY_RUN_SHA256.txt",
+          "reason": "Redistribution permission not established for this pack."
+        },
+        {
+          "path": "CONFIRMATORY_SEEDS_FROZEN.txt",
+          "reason": "Redistribution permission not established for this pack."
+        },
+        {
+          "path": "EFMW_EXP_001_Confirmatory_Results.docx",
+          "reason": "Redistribution permission not established for this pack."
+        },
+        {
+          "path": "EQUATIONS.csv",
+          "reason": "Redistribution permission not established for this pack."
+        },
+        {
+          "path": "ERROR_LEDGER.csv",
+          "reason": "Redistribution permission not established for this pack."
+        },
+        {
+          "path": "EXP-002/README.md",
+          "reason": "Redistribution permission not established for this pack."
+        },
+        {
+          "path": "EXP-002/SHA256SUMS.txt",
+          "reason": "Redistribution permission not established for this pack."
+        },
+        {
+          "path": "EXP-002/analyze.py",
+          "reason": "Redistribution permission not established for this pack."
+        },
+        {
+          "path": "EXP-002/monitors.py",
+          "reason": "Redistribution permission not established for this pack."
+        },
+        {
+          "path": "EXP-002/protocol.md",
+          "reason": "Redistribution permission not established for this pack."
+        },
+        {
+          "path": "EXP-002/results.csv",
+          "reason": "Redistribution permission not established for this pack."
+        },
+        {
+          "path": "EXP-002/run.py",
+          "reason": "Redistribution permission not established for this pack."
+        },
+        {
+          "path": "EXP-002/simulator.py",
+          "reason": "Redistribution permission not established for this pack."
+        },
+        {
+          "path": "EXP-003/README.md",
+          "reason": "Redistribution permission not established for this pack."
+        },
+        {
+          "path": "EXP-003/SHA256SUMS.txt",
+          "reason": "Redistribution permission not established for this pack."
+        },
+        {
+          "path": "EXP-003/analyze.py",
+          "reason": "Redistribution permission not established for this pack."
+        },
+        {
+          "path": "EXP-003/calibration.csv",
+          "reason": "Redistribution permission not established for this pack."
+        },
+        {
+          "path": "EXP-003/monitors.py",
+          "reason": "Redistribution permission not established for this pack."
+        },
+        {
+          "path": "EXP-003/protocol.md",
+          "reason": "Redistribution permission not established for this pack."
+        },
+        {
+          "path": "EXP-003/results.csv",
+          "reason": "Redistribution permission not established for this pack."
+        },
+        {
+          "path": "EXP-003/run.py",
+          "reason": "Redistribution permission not established for this pack."
+        },
+        {
+          "path": "EXP-003/simulator.py",
+          "reason": "Redistribution permission not established for this pack."
+        },
+        {
+          "path": "MANIFEST_SHA256.txt",
+          "reason": "Redistribution permission not established for this pack."
+        },
+        {
+          "path": "PREDICTIONS.csv",
+          "reason": "Redistribution permission not established for this pack."
+        },
+        {
+          "path": "PREDICTION_FREEZE_SHA256.txt",
+          "reason": "Redistribution permission not established for this pack."
+        },
+        {
+          "path": "PROCESSED_DATA/confirmatory_summary.csv",
+          "reason": "Redistribution permission not established for this pack."
+        },
+        {
+          "path": "PROTOCOL.pdf",
+          "reason": "Redistribution permission not established for this pack."
+        },
+        {
+          "path": "RAW_DATA/confirmatory_trials.csv",
+          "reason": "Redistribution permission not established for this pack."
+        },
+        {
+          "path": "README.md",
+          "reason": "Redistribution permission not established for this pack."
+        },
+        {
+          "path": "RESULTS.csv",
+          "reason": "Redistribution permission not established for this pack."
+        },
+        {
+          "path": "THEORY.md",
+          "reason": "Redistribution permission not established for this pack."
+        },
+        {
+          "path": "THEORY_FREEZE_SHA256.txt",
+          "reason": "Redistribution permission not established for this pack."
+        },
+        {
+          "path": "VARIABLES.csv",
+          "reason": "Redistribution permission not established for this pack."
+        },
+        {
+          "path": "analysis.py",
+          "reason": "Redistribution permission not established for this pack."
+        },
+        {
+          "path": "calibration_summary.csv",
+          "reason": "Redistribution permission not established for this pack."
+        },
+        {
+          "path": "calibration_trials.csv",
+          "reason": "Redistribution permission not established for this pack."
+        },
+        {
+          "path": "environment.txt",
+          "reason": "Redistribution permission not established for this pack."
+        },
+        {
+          "path": "monitors.py",
+          "reason": "Redistribution permission not established for this pack."
+        },
+        {
+          "path": "packet_metadata.json",
+          "reason": "Redistribution permission not established for this pack."
+        },
+        {
+          "path": "run_confirmatory.py",
+          "reason": "Redistribution permission not established for this pack."
+        },
+        {
+          "path": "simulator.py",
+          "reason": "Redistribution permission not established for this pack."
+        }
+      ],
+      "repo": "enuminous/EFMW-EXP-001",
+      "status": "metadata-only",
+      "treeFiles": 48
+    },
+    {
+      "capturedBytes": 0,
+      "capturedFiles": 0,
+      "commit": "2be52f3f72937742f76ad7ba35a837d157e20196",
+      "gitTreeSha": "72e7154dae6cff9eb5477439cf809a2c5d4ae169",
+      "license": {
+        "basis": "No applicable repository-wide redistribution grant established; source bytes withheld.",
+        "paths": [],
+        "spdx": null
+      },
+      "omitted": [
+        {
+          "path": ".github/workflows/lean.yml",
+          "reason": "Redistribution permission not established for this pack."
+        },
+        {
+          "path": "EFMWGrid.lean",
+          "reason": "Redistribution permission not established for this pack."
+        },
+        {
+          "path": "LEAN_FORMALIZATION.md",
+          "reason": "Redistribution permission not established for this pack."
+        },
+        {
+          "path": "PROTOCOL.md",
+          "reason": "Redistribution permission not established for this pack."
+        },
+        {
+          "path": "README.md",
+          "reason": "Redistribution permission not established for this pack."
+        },
+        {
+          "path": "index.html",
+          "reason": "Redistribution permission not established for this pack."
+        },
+        {
+          "path": "lake-manifest.json",
+          "reason": "Redistribution permission not established for this pack."
+        },
+        {
+          "path": "lakefile.toml",
+          "reason": "Redistribution permission not established for this pack."
+        },
+        {
+          "path": "lean-toolchain",
+          "reason": "Redistribution permission not established for this pack."
+        }
+      ],
+      "repo": "enuminous/EFMW-Grid",
+      "status": "metadata-only",
+      "treeFiles": 9
+    },
+    {
+      "capturedBytes": 0,
+      "capturedFiles": 0,
+      "commit": "2e392b9fb5bbfa35667cd562787e23cadcc1623f",
+      "gitTreeSha": "8e49772c9012b0666d0591357e20d4fa9cf0d926",
+      "license": {
+        "basis": "No applicable repository-wide redistribution grant established; source bytes withheld.",
+        "paths": [
+          {
+            "gitBlobSha": "5ebf73b5df5cc9d0c17c5938ce0d7aec334c6889",
+            "path": "LICENSE_NOTICE.md"
+          }
+        ],
+        "spdx": null
+      },
+      "omitted": [
+        {
+          "path": ".github/workflows/continuum.yml",
+          "reason": "Redistribution permission not established for this pack."
+        },
+        {
+          "path": ".github/workflows/verify.yml",
+          "reason": "Redistribution permission not established for this pack."
+        },
+        {
+          "path": ".gitignore",
+          "reason": "Redistribution permission not established for this pack."
+        },
+        {
+          "path": "Audit.lean",
+          "reason": "Redistribution permission not established for this pack."
+        },
+        {
+          "path": "EFMWLagrangian.lean",
+          "reason": "Redistribution permission not established for this pack."
+        },
+        {
+          "path": "EFMWLagrangian/Core.lean",
+          "reason": "Redistribution permission not established for this pack."
+        },
+        {
+          "path": "EFMWLagrangian/Generated/Chunk00.lean",
+          "reason": "Redistribution permission not established for this pack."
+        },
+        {
+          "path": "EFMWLagrangian/Generated/Chunk01.lean",
+          "reason": "Redistribution permission not established for this pack."
+        },
+        {
+          "path": "EFMWLagrangian/Generated/Chunk02.lean",
+          "reason": "Redistribution permission not established for this pack."
+        },
+        {
+          "path": "EFMWLagrangian/Generated/Chunk03.lean",
+          "reason": "Redistribution permission not established for this pack."
+        },
+        {
+          "path": "EFMWLagrangian/Generated/Chunk04.lean",
+          "reason": "Redistribution permission not established for this pack."
+        },
+        {
+          "path": "EFMWLagrangian/Generated/Chunk05.lean",
+          "reason": "Redistribution permission not established for this pack."
+        },
+        {
+          "path": "EFMWLagrangian/Generated/Chunk06.lean",
+          "reason": "Redistribution permission not established for this pack."
+        },
+        {
+          "path": "EFMWLagrangian/Generated/Chunk07.lean",
+          "reason": "Redistribution permission not established for this pack."
+        },
+        {
+          "path": "EFMWLagrangian/Generated/Chunk08.lean",
+          "reason": "Redistribution permission not established for this pack."
+        },
+        {
+          "path": "EFMWLagrangian/Generated/Chunk09.lean",
+          "reason": "Redistribution permission not established for this pack."
+        },
+        {
+          "path": "EFMWLagrangian/Generated/Chunk10.lean",
+          "reason": "Redistribution permission not established for this pack."
+        },
+        {
+          "path": "EFMWLagrangian/Generated/Chunk11.lean",
+          "reason": "Redistribution permission not established for this pack."
+        },
+        {
+          "path": "EFMWLagrangian/Generated/Chunk12.lean",
+          "reason": "Redistribution permission not established for this pack."
+        },
+        {
+          "path": "EFMWLagrangian/Generated/Chunk13.lean",
+          "reason": "Redistribution permission not established for this pack."
+        },
+        {
+          "path": "EFMWLagrangian/Generated/readme.md",
+          "reason": "Redistribution permission not established for this pack."
+        },
+        {
+          "path": "EFMWLagrangian/readme.md",
+          "reason": "Redistribution permission not established for this pack."
+        },
+        {
+          "path": "LICENSE_NOTICE.md",
+          "reason": "Redistribution permission not established for this pack."
+        },
+        {
+          "path": "MANIFEST.sha256",
+          "reason": "Redistribution permission not established for this pack."
+        },
+        {
+          "path": "README.md",
+          "reason": "Redistribution permission not established for this pack."
+        },
+        {
+          "path": "assets/dashboard.template.html",
+          "reason": "Redistribution permission not established for this pack."
+        },
+        {
+          "path": "assets/readme.md",
+          "reason": "Redistribution permission not established for this pack."
+        },
+        {
+          "path": "audit/FULL_AUDIT.md",
+          "reason": "Redistribution permission not established for this pack."
+        },
+        {
+          "path": "audit/coupling_dimensions.csv",
+          "reason": "Redistribution permission not established for this pack."
+        },
+        {
+          "path": "audit/coupling_identifications.json",
+          "reason": "Redistribution permission not established for this pack."
+        },
+        {
+          "path": "audit/equations.csv",
+          "reason": "Redistribution permission not established for this pack."
+        },
+        {
+          "path": "audit/equations.json",
+          "reason": "Redistribution permission not established for this pack."
+        },
+        {
+          "path": "audit/lean_atom_map.json",
+          "reason": "Redistribution permission not established for this pack."
+        },
+        {
+          "path": "audit/lean_certificate_index.json",
+          "reason": "Redistribution permission not established for this pack."
+        },
+        {
+          "path": "audit/monolithic_scope.csv",
+          "reason": "Redistribution permission not established for this pack."
+        },
+        {
+          "path": "audit/monolithic_scope.json",
+          "reason": "Redistribution permission not established for this pack."
+        },
+        {
+          "path": "audit/readme.md",
+          "reason": "Redistribution permission not established for this pack."
+        },
+        {
+          "path": "audit/scalar_derivations.json",
+          "reason": "Redistribution permission not established for this pack."
+        },
+        {
+          "path": "audit/source_manifest.json",
+          "reason": "Redistribution permission not established for this pack."
+        },
+        {
+          "path": "audit/summary.json",
+          "reason": "Redistribution permission not established for this pack."
+        },
+        {
+          "path": "audit/triplets.json",
+          "reason": "Redistribution permission not established for this pack."
+        },
+        {
+          "path": "candidate/CANDIDATE.md",
+          "reason": "Redistribution permission not established for this pack."
+        },
+        {
+          "path": "candidate/FREEZE.json",
+          "reason": "Redistribution permission not established for this pack."
+        },
+        {
+          "path": "candidate/conventions.json",
+          "reason": "Redistribution permission not established for this pack."
+        },
+        {
+          "path": "candidate/readme.md",
+          "reason": "Redistribution permission not established for this pack."
+        },
+        {
+          "path": "continuum/Audit.lean",
+          "reason": "Redistribution permission not established for this pack."
+        },
+        {
+          "path": "continuum/EFMWContinuum.lean",
+          "reason": "Redistribution permission not established for this pack."
+        },
+        {
+          "path": "continuum/EFMWContinuum/Generated/Chunk00.lean",
+          "reason": "Redistribution permission not established for this pack."
+        },
+        {
+          "path": "continuum/EFMWContinuum/Generated/Chunk01.lean",
+          "reason": "Redistribution permission not established for this pack."
+        },
+        {
+          "path": "continuum/EFMWContinuum/Generated/Chunk02.lean",
+          "reason": "Redistribution permission not established for this pack."
+        },
+        {
+          "path": "continuum/EFMWContinuum/Generated/Chunk03.lean",
+          "reason": "Redistribution permission not established for this pack."
+        },
+        {
+          "path": "continuum/EFMWContinuum/Generated/Chunk04.lean",
+          "reason": "Redistribution permission not established for this pack."
+        },
+        {
+          "path": "continuum/EFMWContinuum/Generated/Chunk05.lean",
+          "reason": "Redistribution permission not established for this pack."
+        },
+        {
+          "path": "continuum/EFMWContinuum/Generated/Chunk06.lean",
+          "reason": "Redistribution permission not established for this pack."
+        },
+        {
+          "path": "continuum/EFMWContinuum/Generated/Chunk07.lean",
+          "reason": "Redistribution permission not established for this pack."
+        },
+        {
+          "path": "continuum/EFMWContinuum/Generated/Chunk08.lean",
+          "reason": "Redistribution permission not established for this pack."
+        },
+        {
+          "path": "continuum/EFMWContinuum/Generated/Chunk09.lean",
+          "reason": "Redistribution permission not established for this pack."
+        },
+        {
+          "path": "continuum/EFMWContinuum/Generated/Chunk10.lean",
+          "reason": "Redistribution permission not established for this pack."
+        },
+        {
+          "path": "continuum/EFMWContinuum/Generated/Chunk11.lean",
+          "reason": "Redistribution permission not established for this pack."
+        },
+        {
+          "path": "continuum/EFMWContinuum/Generated/Chunk12.lean",
+          "reason": "Redistribution permission not established for this pack."
+        },
+        {
+          "path": "continuum/EFMWContinuum/Generated/Chunk13.lean",
+          "reason": "Redistribution permission not established for this pack."
+        },
+        {
+          "path": "continuum/EFMWContinuum/Realization.lean",
+          "reason": "Redistribution permission not established for this pack."
+        },
+        {
+          "path": "continuum/EFMWContinuum/ScalarVariation.lean",
+          "reason": "Redistribution permission not established for this pack."
+        },
+        {
+          "path": "continuum/certificate_index.json",
+          "reason": "Redistribution permission not established for this pack."
+        },
+        {
+          "path": "continuum/generate.py",
+          "reason": "Redistribution permission not established for this pack."
+        },
+        {
+          "path": "continuum/lake-manifest.json",
+          "reason": "Redistribution permission not established for this pack."
+        },
+        {
+          "path": "continuum/lakefile.toml",
+          "reason": "Redistribution permission not established for this pack."
+        },
+        {
+          "path": "continuum/lean-toolchain",
+          "reason": "Redistribution permission not established for this pack."
+        },
+        {
+          "path": "continuum/negative_checks.py",
+          "reason": "Redistribution permission not established for this pack."
+        },
+        {
+          "path": "continuum/recheck.py",
+          "reason": "Redistribution permission not established for this pack."
+        },
+        {
+          "path": "docs/CONTINUUM_BRIDGE.md",
+          "reason": "Redistribution permission not established for this pack."
+        },
+        {
+          "path": "docs/DERIVATION.md",
+          "reason": "Redistribution permission not established for this pack."
+        },
+        {
+          "path": "docs/FORMAL_SCOPE.md",
+          "reason": "Redistribution permission not established for this pack."
+        },
+        {
+          "path": "docs/GITHUB.md",
+          "reason": "Redistribution permission not established for this pack."
+        },
+        {
+          "path": "docs/PHYSICAL_OBLIGATIONS.md",
+          "reason": "Redistribution permission not established for this pack."
+        },
+        {
+          "path": "docs/REPRODUCIBILITY.md",
+          "reason": "Redistribution permission not established for this pack."
+        },
+        {
+          "path": "docs/readme.md",
+          "reason": "Redistribution permission not established for this pack."
+        },
+        {
+          "path": "index.html",
+          "reason": "Redistribution permission not established for this pack."
+        },
+        {
+          "path": "lake-manifest.json",
+          "reason": "Redistribution permission not established for this pack."
+        },
+        {
+          "path": "lakefile.toml",
+          "reason": "Redistribution permission not established for this pack."
+        },
+        {
+          "path": "lean-toolchain",
+          "reason": "Redistribution permission not established for this pack."
+        },
+        {
+          "path": "scripts/audit.py",
+          "reason": "Redistribution permission not established for this pack."
+        },
+        {
+          "path": "scripts/check_axiom_guard.py",
+          "reason": "Redistribution permission not established for this pack."
+        },
+        {
+          "path": "scripts/freeze.py",
+          "reason": "Redistribution permission not established for this pack."
+        },
+        {
+          "path": "scripts/package.py",
+          "reason": "Redistribution permission not established for this pack."
+        },
+        {
+          "path": "scripts/readme.md",
+          "reason": "Redistribution permission not established for this pack."
+        },
+        {
+          "path": "scripts/render_dashboard.py",
+          "reason": "Redistribution permission not established for this pack."
+        },
+        {
+          "path": "scripts/verify.py",
+          "reason": "Redistribution permission not established for this pack."
+        },
+        {
+          "path": "sources/EFMW_165_field_equations.txt",
+          "reason": "Redistribution permission not established for this pack."
+        },
+        {
+          "path": "sources/FieldSpace_master_action_original.md",
+          "reason": "Redistribution permission not established for this pack."
+        },
+        {
+          "path": "sources/Monolithic_CANONICAL_102.md",
+          "reason": "Redistribution permission not established for this pack."
+        },
+        {
+          "path": "sources/readme.md",
+          "reason": "Redistribution permission not established for this pack."
+        },
+        {
+          "path": "sources/source_refs.json",
+          "reason": "Redistribution permission not established for this pack."
+        },
+        {
+          "path": "src/__init__.py",
+          "reason": "Redistribution permission not established for this pack."
+        },
+        {
+          "path": "src/catalogue.py",
+          "reason": "Redistribution permission not established for this pack."
+        },
+        {
+          "path": "src/efmw_audit/__init__.py",
+          "reason": "Redistribution permission not established for this pack."
+        },
+        {
+          "path": "src/efmw_audit/catalogue.py",
+          "reason": "Redistribution permission not established for this pack."
+        },
+        {
+          "path": "src/efmw_audit/model.py",
+          "reason": "Redistribution permission not established for this pack."
+        },
+        {
+          "path": "src/efmw_audit/polynomial.py",
+          "reason": "Redistribution permission not established for this pack."
+        },
+        {
+          "path": "src/efmw_audit/readme.md",
+          "reason": "Redistribution permission not established for this pack."
+        },
+        {
+          "path": "src/model.py",
+          "reason": "Redistribution permission not established for this pack."
+        },
+        {
+          "path": "src/polynomial.py",
+          "reason": "Redistribution permission not established for this pack."
+        },
+        {
+          "path": "src/readme.md",
+          "reason": "Redistribution permission not established for this pack."
+        },
+        {
+          "path": "tests/readme.md",
+          "reason": "Redistribution permission not established for this pack."
+        },
+        {
+          "path": "tests/test_audit.py",
+          "reason": "Redistribution permission not established for this pack."
+        },
+        {
+          "path": "tools/EXPLICIT_PATH_LAUNCHER.md",
+          "reason": "Redistribution permission not established for this pack."
+        },
+        {
+          "path": "tools/lean_explicit_path.c",
+          "reason": "Redistribution permission not established for this pack."
+        },
+        {
+          "path": "tools/readme.md",
+          "reason": "Redistribution permission not established for this pack."
+        },
+        {
+          "path": "verification/RELEASE_CHECKS.md",
+          "reason": "Redistribution permission not established for this pack."
+        },
+        {
+          "path": "verification/audit.log",
+          "reason": "Redistribution permission not established for this pack."
+        },
+        {
+          "path": "verification/axiom_audit.log",
+          "reason": "Redistribution permission not established for this pack."
+        },
+        {
+          "path": "verification/build_status.json",
+          "reason": "Redistribution permission not established for this pack."
+        },
+        {
+          "path": "verification/candidate_lock.log",
+          "reason": "Redistribution permission not established for this pack."
+        },
+        {
+          "path": "verification/fresh_extraction_build_status.json",
+          "reason": "Redistribution permission not established for this pack."
+        },
+        {
+          "path": "verification/lean_build.log",
+          "reason": "Redistribution permission not established for this pack."
+        },
+        {
+          "path": "verification/lean_version.log",
+          "reason": "Redistribution permission not established for this pack."
+        },
+        {
+          "path": "verification/leanchecker.log",
+          "reason": "Redistribution permission not established for this pack."
+        },
+        {
+          "path": "verification/negative_checks.log",
+          "reason": "Redistribution permission not established for this pack."
+        },
+        {
+          "path": "verification/python_tests.log",
+          "reason": "Redistribution permission not established for this pack."
+        },
+        {
+          "path": "verification/readme.md",
+          "reason": "Redistribution permission not established for this pack."
+        }
+      ],
+      "repo": "enuminous/EFMW-Lagrangian",
+      "status": "metadata-only",
+      "treeFiles": 120
+    },
+    {
+      "capturedBytes": 0,
+      "capturedFiles": 0,
+      "commit": "dc8903f99c5503e2279b3962d960cb4f0bfa622c",
+      "gitTreeSha": "5981d384bd852e498fb81661c5baa4fab3b8f6c0",
+      "license": {
+        "basis": "No applicable repository-wide redistribution grant established; source bytes withheld.",
+        "paths": [
+          {
+            "gitBlobSha": "62c3e4a9d0c33c730c119fc5813fec3dfacf08d3",
+            "path": "research_engine/data/zoo-LICENSE"
+          }
+        ],
+        "spdx": null
+      },
+      "omitted": [
+        {
+          "path": ".github/workflows/lean-audit.yml",
+          "reason": "Redistribution permission not established for this pack."
+        },
+        {
+          "path": ".github/workflows/research-engine.yml",
+          "reason": "Redistribution permission not established for this pack."
+        },
+        {
+          "path": ".gitignore",
+          "reason": "Redistribution permission not established for this pack."
+        },
+        {
+          "path": "CITATION.cff",
+          "reason": "Redistribution permission not established for this pack."
+        },
+        {
+          "path": "CLAIMS_EVIDENCE_REGISTER.md",
+          "reason": "Redistribution permission not established for this pack."
+        },
+        {
+          "path": "EFMWPost156Audit/DerivedCandidates.lean",
+          "reason": "Redistribution permission not established for this pack."
+        },
+        {
+          "path": "EFMWPost156Audit/FieldSpaceClosure.lean",
+          "reason": "Redistribution permission not established for this pack."
+        },
+        {
+          "path": "EFMWPost156Audit/ProjectedGluing.lean",
+          "reason": "Redistribution permission not established for this pack."
+        },
+        {
+          "path": "EFMWPost156Audit/readme.md",
+          "reason": "Redistribution permission not established for this pack."
+        },
+        {
+          "path": "MANIFEST.sha256",
+          "reason": "Redistribution permission not established for this pack."
+        },
+        {
+          "path": "README.md",
+          "reason": "Redistribution permission not established for this pack."
+        },
+        {
+          "path": "RELEASE_AND_REPRODUCIBILITY_POLICY.md",
+          "reason": "Redistribution permission not established for this pack."
+        },
+        {
+          "path": "REVIEW_START_HERE.md",
+          "reason": "Redistribution permission not established for this pack."
+        },
+        {
+          "path": "WHAT_THIS_DOES_NOT_CLAIM.md",
+          "reason": "Redistribution permission not established for this pack."
+        },
+        {
+          "path": "docs/CANDIDATE_LAWS.md",
+          "reason": "Redistribution permission not established for this pack."
+        },
+        {
+          "path": "docs/COUNTING_RULES.md",
+          "reason": "Redistribution permission not established for this pack."
+        },
+        {
+          "path": "docs/FIELDSPACE_CLOSURE_AUDIT.md",
+          "reason": "Redistribution permission not established for this pack."
+        },
+        {
+          "path": "docs/NEW_DERIVATIONS.md",
+          "reason": "Redistribution permission not established for this pack."
+        },
+        {
+          "path": "docs/PROJECTED_GLUING_REPAIR.md",
+          "reason": "Redistribution permission not established for this pack."
+        },
+        {
+          "path": "docs/readme.md",
+          "reason": "Redistribution permission not established for this pack."
+        },
+        {
+          "path": "lake-manifest.json",
+          "reason": "Redistribution permission not established for this pack."
+        },
+        {
+          "path": "lakefile.toml",
+          "reason": "Redistribution permission not established for this pack."
+        },
+        {
+          "path": "lean-toolchain",
+          "reason": "Redistribution permission not established for this pack."
+        },
+        {
+          "path": "lean/ProofAudit.lean",
+          "reason": "Redistribution permission not established for this pack."
+        },
+        {
+          "path": "lean/README.md",
+          "reason": "Redistribution permission not established for this pack."
+        },
+        {
+          "path": "lean/readme.md",
+          "reason": "Redistribution permission not established for this pack."
+        },
+        {
+          "path": "portfolio/DUPLICATE_FILES_2026-10-16.json",
+          "reason": "Redistribution permission not established for this pack."
+        },
+        {
+          "path": "portfolio/INTERLOCK_AUDIT.md",
+          "reason": "Redistribution permission not established for this pack."
+        },
+        {
+          "path": "portfolio/LIFECYCLE_PUBLICATION_2026-10-16.json",
+          "reason": "Redistribution permission not established for this pack."
+        },
+        {
+          "path": "portfolio/NAVIGATION_REFRESH_2026-10-13.md",
+          "reason": "Redistribution permission not established for this pack."
+        },
+        {
+          "path": "portfolio/README.md",
+          "reason": "Redistribution permission not established for this pack."
+        },
+        {
+          "path": "portfolio/REPOSITORY_LIFECYCLE_2026-10-16.json",
+          "reason": "Redistribution permission not established for this pack."
+        },
+        {
+          "path": "portfolio/REPOSITORY_LIFECYCLE_2026-10-16.md",
+          "reason": "Redistribution permission not established for this pack."
+        },
+        {
+          "path": "portfolio/failed-ci-jobs.json",
+          "reason": "Redistribution permission not established for this pack."
+        },
+        {
+          "path": "portfolio/findings.json",
+          "reason": "Redistribution permission not established for this pack."
+        },
+        {
+          "path": "portfolio/navigation-refresh-2026-10-13.json",
+          "reason": "Redistribution permission not established for this pack."
+        },
+        {
+          "path": "portfolio/navigation-template.html",
+          "reason": "Redistribution permission not established for this pack."
+        },
+        {
+          "path": "portfolio/navigation.json",
+          "reason": "Redistribution permission not established for this pack."
+        },
+        {
+          "path": "portfolio/navigation.py",
+          "reason": "Redistribution permission not established for this pack."
+        },
+        {
+          "path": "portfolio/repositories.json",
+          "reason": "Redistribution permission not established for this pack."
+        },
+        {
+          "path": "portfolio/rollout.json",
+          "reason": "Redistribution permission not established for this pack."
+        },
+        {
+          "path": "portfolio/verification.json",
+          "reason": "Redistribution permission not established for this pack."
+        },
+        {
+          "path": "registry/BASELINE.md",
+          "reason": "Redistribution permission not established for this pack."
+        },
+        {
+          "path": "registry/POST_156_REGISTRY.csv",
+          "reason": "Redistribution permission not established for this pack."
+        },
+        {
+          "path": "registry/POST_156_REGISTRY.md",
+          "reason": "Redistribution permission not established for this pack."
+        },
+        {
+          "path": "registry/readme.md",
+          "reason": "Redistribution permission not established for this pack."
+        },
+        {
+          "path": "registry/summary.json",
+          "reason": "Redistribution permission not established for this pack."
+        },
+        {
+          "path": "research_engine/README.md",
+          "reason": "Redistribution permission not established for this pack."
+        },
+        {
+          "path": "research_engine/__init__.py",
+          "reason": "Redistribution permission not established for this pack."
+        },
+        {
+          "path": "research_engine/__main__.py",
+          "reason": "Redistribution permission not established for this pack."
+        },
+        {
+          "path": "research_engine/catalog.py",
+          "reason": "Redistribution permission not established for this pack."
+        },
+        {
+          "path": "research_engine/dashboard.html",
+          "reason": "Redistribution permission not established for this pack."
+        },
+        {
+          "path": "research_engine/dashboard.py",
+          "reason": "Redistribution permission not established for this pack."
+        },
+        {
+          "path": "research_engine/data/equations.json",
+          "reason": "Redistribution permission not established for this pack."
+        },
+        {
+          "path": "research_engine/data/prior-equation-audit.json",
+          "reason": "Redistribution permission not established for this pack."
+        },
+        {
+          "path": "research_engine/data/provenance.json",
+          "reason": "Redistribution permission not established for this pack."
+        },
+        {
+          "path": "research_engine/data/triplets.json",
+          "reason": "Redistribution permission not established for this pack."
+        },
+        {
+          "path": "research_engine/data/zoo-LICENSE",
+          "reason": "Redistribution permission not established for this pack."
+        },
+        {
+          "path": "research_engine/data/zoo-coverage.json",
+          "reason": "Redistribution permission not established for this pack."
+        },
+        {
+          "path": "research_engine/data/zoo-ranked-components.json",
+          "reason": "Redistribution permission not established for this pack."
+        },
+        {
+          "path": "research_engine/data/zoo-reference-fixtures.json",
+          "reason": "Redistribution permission not established for this pack."
+        },
+        {
+          "path": "research_engine/data/zoo-specifications.json",
+          "reason": "Redistribution permission not established for this pack."
+        },
+        {
+          "path": "research_engine/engine.py",
+          "reason": "Redistribution permission not established for this pack."
+        },
+        {
+          "path": "research_engine/examples/__init__.py",
+          "reason": "Redistribution permission not established for this pack."
+        },
+        {
+          "path": "research_engine/examples/cases.py",
+          "reason": "Redistribution permission not established for this pack."
+        },
+        {
+          "path": "research_engine/examples/demo.py",
+          "reason": "Redistribution permission not established for this pack."
+        },
+        {
+          "path": "research_engine/kernels.py",
+          "reason": "Redistribution permission not established for this pack."
+        },
+        {
+          "path": "research_engine/results/VERIFICATION.md",
+          "reason": "Redistribution permission not established for this pack."
+        },
+        {
+          "path": "research_engine/results/demo-v0.1/demo-ledger.jsonl",
+          "reason": "Redistribution permission not established for this pack."
+        },
+        {
+          "path": "research_engine/results/demo-v0.1/index.html",
+          "reason": "Redistribution permission not established for this pack."
+        },
+        {
+          "path": "research_engine/results/demo-v0.1/kernel-inputs.json",
+          "reason": "Redistribution permission not established for this pack."
+        },
+        {
+          "path": "research_engine/results/demo-v0.1/mapping-proposal.json",
+          "reason": "Redistribution permission not established for this pack."
+        },
+        {
+          "path": "research_engine/results/demo-v0.1/status.json",
+          "reason": "Redistribution permission not established for this pack."
+        },
+        {
+          "path": "research_engine/results/demo-v0.1/tortoise-input.json",
+          "reason": "Redistribution permission not established for this pack."
+        },
+        {
+          "path": "research_engine/results/demo-v0.1/tortoise-plan.json",
+          "reason": "Redistribution permission not established for this pack."
+        },
+        {
+          "path": "research_engine/results/fieldspace-tests.log",
+          "reason": "Redistribution permission not established for this pack."
+        },
+        {
+          "path": "research_engine/results/github-ci.json",
+          "reason": "Redistribution permission not established for this pack."
+        },
+        {
+          "path": "research_engine/results/python-tests.log",
+          "reason": "Redistribution permission not established for this pack."
+        },
+        {
+          "path": "research_engine/tests/__init__.py",
+          "reason": "Redistribution permission not established for this pack."
+        },
+        {
+          "path": "research_engine/tests/dashboard.cjs",
+          "reason": "Redistribution permission not established for this pack."
+        },
+        {
+          "path": "research_engine/tests/test_engine.py",
+          "reason": "Redistribution permission not established for this pack."
+        },
+        {
+          "path": "results/fieldspace/overlaps.csv",
+          "reason": "Redistribution permission not established for this pack."
+        },
+        {
+          "path": "results/fieldspace/projected_overlaps.csv",
+          "reason": "Redistribution permission not established for this pack."
+        },
+        {
+          "path": "results/fieldspace/summary.json",
+          "reason": "Redistribution permission not established for this pack."
+        },
+        {
+          "path": "results/lean/VERIFICATION.md",
+          "reason": "Redistribution permission not established for this pack."
+        },
+        {
+          "path": "results/lean/axioms.log",
+          "reason": "Redistribution permission not established for this pack."
+        },
+        {
+          "path": "results/lean/build.log",
+          "reason": "Redistribution permission not established for this pack."
+        },
+        {
+          "path": "results/lean/first-build-failure.log",
+          "reason": "Redistribution permission not established for this pack."
+        },
+        {
+          "path": "results/lean/projected-gluing/VERIFICATION.md",
+          "reason": "Redistribution permission not established for this pack."
+        },
+        {
+          "path": "results/lean/projected-gluing/axioms.log",
+          "reason": "Redistribution permission not established for this pack."
+        },
+        {
+          "path": "results/lean/projected-gluing/build.log",
+          "reason": "Redistribution permission not established for this pack."
+        },
+        {
+          "path": "results/lean/projected-gluing/checker-controls.log",
+          "reason": "Redistribution permission not established for this pack."
+        },
+        {
+          "path": "results/lean/projected-gluing/first-build-failure.log",
+          "reason": "Redistribution permission not established for this pack."
+        },
+        {
+          "path": "results/lean/projected-gluing/second-build-failure.log",
+          "reason": "Redistribution permission not established for this pack."
+        },
+        {
+          "path": "results/lean/projected-gluing/version.log",
+          "reason": "Redistribution permission not established for this pack."
+        },
+        {
+          "path": "results/lean/version.log",
+          "reason": "Redistribution permission not established for this pack."
+        },
+        {
+          "path": "scripts/audit_fieldspace.py",
+          "reason": "Redistribution permission not established for this pack."
+        },
+        {
+          "path": "scripts/check_axioms.py",
+          "reason": "Redistribution permission not established for this pack."
+        },
+        {
+          "path": "scripts/test_fieldspace_audit.py",
+          "reason": "Redistribution permission not established for this pack."
+        },
+        {
+          "path": "sources/PROVENANCE.md",
+          "reason": "Redistribution permission not established for this pack."
+        },
+        {
+          "path": "sources/fieldspace/EFMW_165_field_equations.txt",
+          "reason": "Redistribution permission not established for this pack."
+        },
+        {
+          "path": "sources/fieldspace/PROVENANCE.md",
+          "reason": "Redistribution permission not established for this pack."
+        },
+        {
+          "path": "sources/fieldspace/UPSTREAM_GLOBAL_RECONSTRUCTION.md",
+          "reason": "Redistribution permission not established for this pack."
+        },
+        {
+          "path": "sources/fieldspace/UPSTREAM_GLUING_AUDIT.md",
+          "reason": "Redistribution permission not established for this pack."
+        },
+        {
+          "path": "sources/readme.md",
+          "reason": "Redistribution permission not established for this pack."
+        },
+        {
+          "path": "zoo/CANONICAL_46_PASS.md",
+          "reason": "Redistribution permission not established for this pack."
+        },
+        {
+          "path": "zoo/readme.md",
+          "reason": "Redistribution permission not established for this pack."
+        }
+      ],
+      "repo": "enuminous/EFMW_Post156_Zoo_Audit",
+      "status": "metadata-only",
+      "treeFiles": 107
+    },
+    {
+      "capturedBytes": 0,
+      "capturedFiles": 0,
+      "commit": "39e8a7e8acbf20b9a9b8e2afd0985549925ab86c",
+      "gitTreeSha": "eb305fb8654d2f869d84d7484380c1a3fbd8227f",
+      "license": {
+        "basis": "No applicable repository-wide redistribution grant established; source bytes withheld.",
+        "paths": [],
+        "spdx": null
+      },
+      "omitted": [
+        {
+          "path": ".github/workflows/fieldspace-audit.yml",
+          "reason": "Redistribution permission not established for this pack."
+        },
+        {
+          "path": ".github/workflows/static.yml",
+          "reason": "Redistribution permission not established for this pack."
+        },
+        {
+          "path": ".gitignore",
+          "reason": "Redistribution permission not established for this pack."
+        },
+        {
+          "path": ".nojekyll",
+          "reason": "Redistribution permission not established for this pack."
+        },
+        {
+          "path": "AUDIT_2026-09-29.md",
+          "reason": "Redistribution permission not established for this pack."
+        },
+        {
+          "path": "Analysis.md",
+          "reason": "Redistribution permission not established for this pack."
+        },
+        {
+          "path": "Audit.lean",
+          "reason": "Redistribution permission not established for this pack."
+        },
+        {
+          "path": "COMMENTARY.md",
+          "reason": "Redistribution permission not established for this pack."
+        },
+        {
+          "path": "EFMW_165_field_equations.txt",
+          "reason": "Redistribution permission not established for this pack."
+        },
+        {
+          "path": "FieldSpace.lean",
+          "reason": "Redistribution permission not established for this pack."
+        },
+        {
+          "path": "FieldSpace/Ablations.lean",
+          "reason": "Redistribution permission not established for this pack."
+        },
+        {
+          "path": "FieldSpace/Coupling.lean",
+          "reason": "Redistribution permission not established for this pack."
+        },
+        {
+          "path": "FieldSpace/Structure.lean",
+          "reason": "Redistribution permission not established for this pack."
+        },
+        {
+          "path": "README.md",
+          "reason": "Redistribution permission not established for this pack."
+        },
+        {
+          "path": "THEOREM_REGISTER.md",
+          "reason": "Redistribution permission not established for this pack."
+        },
+        {
+          "path": "VERIFICATION.md",
+          "reason": "Redistribution permission not established for this pack."
+        },
+        {
+          "path": "ZOO_46_RUN.md",
+          "reason": "Redistribution permission not established for this pack."
+        },
+        {
+          "path": "fieldspace_agent.html",
+          "reason": "Redistribution permission not established for this pack."
+        },
+        {
+          "path": "fieldspace_master_action.md",
+          "reason": "Redistribution permission not established for this pack."
+        },
+        {
+          "path": "generated/HPA_MISSING_TRIPLET.md",
+          "reason": "Redistribution permission not established for this pack."
+        },
+        {
+          "path": "generated/RECOVERY_PATCH.txt",
+          "reason": "Redistribution permission not established for this pack."
+        },
+        {
+          "path": "index.html",
+          "reason": "Redistribution permission not established for this pack."
+        },
+        {
+          "path": "lake-manifest.json",
+          "reason": "Redistribution permission not established for this pack."
+        },
+        {
+          "path": "lakefile.toml",
+          "reason": "Redistribution permission not established for this pack."
+        },
+        {
+          "path": "lean-toolchain",
+          "reason": "Redistribution permission not established for this pack."
+        },
+        {
+          "path": "results/SIMULATION_REPORT.md",
+          "reason": "Redistribution permission not established for this pack."
+        },
+        {
+          "path": "results/ablation_results.csv",
+          "reason": "Redistribution permission not established for this pack."
+        },
+        {
+          "path": "results/simulation_summary.json",
+          "reason": "Redistribution permission not established for this pack."
+        },
+        {
+          "path": "results/zoo_matrix_165x46.csv",
+          "reason": "Redistribution permission not established for this pack."
+        },
+        {
+          "path": "scripts/audit_fieldspace.py",
+          "reason": "Redistribution permission not established for this pack."
+        },
+        {
+          "path": "scripts/test_axiom_audit.py",
+          "reason": "Redistribution permission not established for this pack."
+        },
+        {
+          "path": "sim/fieldspace_sim.py",
+          "reason": "Redistribution permission not established for this pack."
+        },
+        {
+          "path": "styles.css",
+          "reason": "Redistribution permission not established for this pack."
+        },
+        {
+          "path": "tests/test_fieldspace.py",
+          "reason": "Redistribution permission not established for this pack."
+        }
+      ],
+      "repo": "enuminous/FieldSpace",
+      "status": "metadata-only",
+      "treeFiles": 34
+    },
+    {
+      "capturedBytes": 0,
+      "capturedFiles": 0,
+      "commit": "2ee2abd51cbe25aa54fd6c244dc67f72e5a36085",
+      "gitTreeSha": "ea85b8c6d24f51c7e0c0296e7e26bf18a10f4d26",
+      "license": {
+        "basis": "No applicable repository-wide redistribution grant established; source bytes withheld.",
+        "paths": [],
+        "spdx": null
+      },
+      "omitted": [
+        {
+          "path": ".github/workflows/lean.yml",
+          "reason": "Redistribution permission not established for this pack."
+        },
+        {
+          "path": ".gitignore",
+          "reason": "Redistribution permission not established for this pack."
+        },
+        {
+          "path": "Audit.lean",
+          "reason": "Redistribution permission not established for this pack."
+        },
+        {
+          "path": "BUILD.log",
+          "reason": "Redistribution permission not established for this pack."
+        },
+        {
+          "path": "BUILD_REPORT.md",
+          "reason": "Redistribution permission not established for this pack."
+        },
+        {
+          "path": "FORMALIZATION_STATUS.md",
+          "reason": "Redistribution permission not established for this pack."
+        },
+        {
+          "path": "MANIFEST.sha256",
+          "reason": "Redistribution permission not established for this pack."
+        },
+        {
+          "path": "Monolithic102.lean",
+          "reason": "Redistribution permission not established for this pack."
+        },
+        {
+          "path": "Monolithic102/All.lean",
+          "reason": "Redistribution permission not established for this pack."
+        },
+        {
+          "path": "Monolithic102/Catalog.lean",
+          "reason": "Redistribution permission not established for this pack."
+        },
+        {
+          "path": "Monolithic102/Formalized.lean",
+          "reason": "Redistribution permission not established for this pack."
+        },
+        {
+          "path": "Monolithic102/ME001.lean",
+          "reason": "Redistribution permission not established for this pack."
+        },
+        {
+          "path": "Monolithic102/ME002.lean",
+          "reason": "Redistribution permission not established for this pack."
+        },
+        {
+          "path": "Monolithic102/ME003.lean",
+          "reason": "Redistribution permission not established for this pack."
+        },
+        {
+          "path": "Monolithic102/ME004.lean",
+          "reason": "Redistribution permission not established for this pack."
+        },
+        {
+          "path": "Monolithic102/ME005.lean",
+          "reason": "Redistribution permission not established for this pack."
+        },
+        {
+          "path": "Monolithic102/ME006.lean",
+          "reason": "Redistribution permission not established for this pack."
+        },
+        {
+          "path": "Monolithic102/ME007.lean",
+          "reason": "Redistribution permission not established for this pack."
+        },
+        {
+          "path": "Monolithic102/ME008.lean",
+          "reason": "Redistribution permission not established for this pack."
+        },
+        {
+          "path": "Monolithic102/ME009.lean",
+          "reason": "Redistribution permission not established for this pack."
+        },
+        {
+          "path": "Monolithic102/ME010.lean",
+          "reason": "Redistribution permission not established for this pack."
+        },
+        {
+          "path": "Monolithic102/ME011.lean",
+          "reason": "Redistribution permission not established for this pack."
+        },
+        {
+          "path": "Monolithic102/ME012.lean",
+          "reason": "Redistribution permission not established for this pack."
+        },
+        {
+          "path": "Monolithic102/ME013.lean",
+          "reason": "Redistribution permission not established for this pack."
+        },
+        {
+          "path": "Monolithic102/ME014.lean",
+          "reason": "Redistribution permission not established for this pack."
+        },
+        {
+          "path": "Monolithic102/ME015.lean",
+          "reason": "Redistribution permission not established for this pack."
+        },
+        {
+          "path": "Monolithic102/ME016.lean",
+          "reason": "Redistribution permission not established for this pack."
+        },
+        {
+          "path": "Monolithic102/ME017.lean",
+          "reason": "Redistribution permission not established for this pack."
+        },
+        {
+          "path": "Monolithic102/ME018.lean",
+          "reason": "Redistribution permission not established for this pack."
+        },
+        {
+          "path": "Monolithic102/ME019.lean",
+          "reason": "Redistribution permission not established for this pack."
+        },
+        {
+          "path": "Monolithic102/ME020.lean",
+          "reason": "Redistribution permission not established for this pack."
+        },
+        {
+          "path": "Monolithic102/ME021.lean",
+          "reason": "Redistribution permission not established for this pack."
+        },
+        {
+          "path": "Monolithic102/ME022.lean",
+          "reason": "Redistribution permission not established for this pack."
+        },
+        {
+          "path": "Monolithic102/ME023.lean",
+          "reason": "Redistribution permission not established for this pack."
+        },
+        {
+          "path": "Monolithic102/ME024.lean",
+          "reason": "Redistribution permission not established for this pack."
+        },
+        {
+          "path": "Monolithic102/ME025.lean",
+          "reason": "Redistribution permission not established for this pack."
+        },
+        {
+          "path": "Monolithic102/ME026.lean",
+          "reason": "Redistribution permission not established for this pack."
+        },
+        {
+          "path": "Monolithic102/ME027.lean",
+          "reason": "Redistribution permission not established for this pack."
+        },
+        {
+          "path": "Monolithic102/ME028.lean",
+          "reason": "Redistribution permission not established for this pack."
+        },
+        {
+          "path": "Monolithic102/ME029.lean",
+          "reason": "Redistribution permission not established for this pack."
+        },
+        {
+          "path": "Monolithic102/ME030.lean",
+          "reason": "Redistribution permission not established for this pack."
+        },
+        {
+          "path": "Monolithic102/ME031.lean",
+          "reason": "Redistribution permission not established for this pack."
+        },
+        {
+          "path": "Monolithic102/ME032.lean",
+          "reason": "Redistribution permission not established for this pack."
+        },
+        {
+          "path": "Monolithic102/ME033.lean",
+          "reason": "Redistribution permission not established for this pack."
+        },
+        {
+          "path": "Monolithic102/ME034.lean",
+          "reason": "Redistribution permission not established for this pack."
+        },
+        {
+          "path": "Monolithic102/ME035.lean",
+          "reason": "Redistribution permission not established for this pack."
+        },
+        {
+          "path": "Monolithic102/ME036.lean",
+          "reason": "Redistribution permission not established for this pack."
+        },
+        {
+          "path": "Monolithic102/ME037.lean",
+          "reason": "Redistribution permission not established for this pack."
+        },
+        {
+          "path": "Monolithic102/ME038.lean",
+          "reason": "Redistribution permission not established for this pack."
+        },
+        {
+          "path": "Monolithic102/ME039.lean",
+          "reason": "Redistribution permission not established for this pack."
+        },
+        {
+          "path": "Monolithic102/ME040.lean",
+          "reason": "Redistribution permission not established for this pack."
+        },
+        {
+          "path": "Monolithic102/ME041.lean",
+          "reason": "Redistribution permission not established for this pack."
+        },
+        {
+          "path": "Monolithic102/ME042.lean",
+          "reason": "Redistribution permission not established for this pack."
+        },
+        {
+          "path": "Monolithic102/ME043.lean",
+          "reason": "Redistribution permission not established for this pack."
+        },
+        {
+          "path": "Monolithic102/ME044.lean",
+          "reason": "Redistribution permission not established for this pack."
+        },
+        {
+          "path": "Monolithic102/ME045.lean",
+          "reason": "Redistribution permission not established for this pack."
+        },
+        {
+          "path": "Monolithic102/ME046.lean",
+          "reason": "Redistribution permission not established for this pack."
+        },
+        {
+          "path": "Monolithic102/ME047.lean",
+          "reason": "Redistribution permission not established for this pack."
+        },
+        {
+          "path": "Monolithic102/ME048.lean",
+          "reason": "Redistribution permission not established for this pack."
+        },
+        {
+          "path": "Monolithic102/ME049.lean",
+          "reason": "Redistribution permission not established for this pack."
+        },
+        {
+          "path": "Monolithic102/ME050.lean",
+          "reason": "Redistribution permission not established for this pack."
+        },
+        {
+          "path": "Monolithic102/ME051.lean",
+          "reason": "Redistribution permission not established for this pack."
+        },
+        {
+          "path": "Monolithic102/ME052.lean",
+          "reason": "Redistribution permission not established for this pack."
+        },
+        {
+          "path": "Monolithic102/ME053.lean",
+          "reason": "Redistribution permission not established for this pack."
+        },
+        {
+          "path": "Monolithic102/ME054.lean",
+          "reason": "Redistribution permission not established for this pack."
+        },
+        {
+          "path": "Monolithic102/ME055.lean",
+          "reason": "Redistribution permission not established for this pack."
+        },
+        {
+          "path": "Monolithic102/ME056.lean",
+          "reason": "Redistribution permission not established for this pack."
+        },
+        {
+          "path": "Monolithic102/ME057.lean",
+          "reason": "Redistribution permission not established for this pack."
+        },
+        {
+          "path": "Monolithic102/ME058.lean",
+          "reason": "Redistribution permission not established for this pack."
+        },
+        {
+          "path": "Monolithic102/ME059.lean",
+          "reason": "Redistribution permission not established for this pack."
+        },
+        {
+          "path": "Monolithic102/ME060.lean",
+          "reason": "Redistribution permission not established for this pack."
+        },
+        {
+          "path": "Monolithic102/ME061.lean",
+          "reason": "Redistribution permission not established for this pack."
+        },
+        {
+          "path": "Monolithic102/ME062.lean",
+          "reason": "Redistribution permission not established for this pack."
+        },
+        {
+          "path": "Monolithic102/ME063.lean",
+          "reason": "Redistribution permission not established for this pack."
+        },
+        {
+          "path": "Monolithic102/ME064.lean",
+          "reason": "Redistribution permission not established for this pack."
+        },
+        {
+          "path": "Monolithic102/ME065.lean",
+          "reason": "Redistribution permission not established for this pack."
+        },
+        {
+          "path": "Monolithic102/ME066.lean",
+          "reason": "Redistribution permission not established for this pack."
+        },
+        {
+          "path": "Monolithic102/ME067.lean",
+          "reason": "Redistribution permission not established for this pack."
+        },
+        {
+          "path": "Monolithic102/ME068.lean",
+          "reason": "Redistribution permission not established for this pack."
+        },
+        {
+          "path": "Monolithic102/ME069.lean",
+          "reason": "Redistribution permission not established for this pack."
+        },
+        {
+          "path": "Monolithic102/ME070.lean",
+          "reason": "Redistribution permission not established for this pack."
+        },
+        {
+          "path": "Monolithic102/ME071.lean",
+          "reason": "Redistribution permission not established for this pack."
+        },
+        {
+          "path": "Monolithic102/ME072.lean",
+          "reason": "Redistribution permission not established for this pack."
+        },
+        {
+          "path": "Monolithic102/ME073.lean",
+          "reason": "Redistribution permission not established for this pack."
+        },
+        {
+          "path": "Monolithic102/ME074.lean",
+          "reason": "Redistribution permission not established for this pack."
+        },
+        {
+          "path": "Monolithic102/ME075.lean",
+          "reason": "Redistribution permission not established for this pack."
+        },
+        {
+          "path": "Monolithic102/ME076.lean",
+          "reason": "Redistribution permission not established for this pack."
+        },
+        {
+          "path": "Monolithic102/ME077.lean",
+          "reason": "Redistribution permission not established for this pack."
+        },
+        {
+          "path": "Monolithic102/ME078.lean",
+          "reason": "Redistribution permission not established for this pack."
+        },
+        {
+          "path": "Monolithic102/ME079.lean",
+          "reason": "Redistribution permission not established for this pack."
+        },
+        {
+          "path": "Monolithic102/ME080.lean",
+          "reason": "Redistribution permission not established for this pack."
+        },
+        {
+          "path": "Monolithic102/ME081.lean",
+          "reason": "Redistribution permission not established for this pack."
+        },
+        {
+          "path": "Monolithic102/ME082.lean",
+          "reason": "Redistribution permission not established for this pack."
+        },
+        {
+          "path": "Monolithic102/ME083.lean",
+          "reason": "Redistribution permission not established for this pack."
+        },
+        {
+          "path": "Monolithic102/ME084.lean",
+          "reason": "Redistribution permission not established for this pack."
+        },
+        {
+          "path": "Monolithic102/ME085.lean",
+          "reason": "Redistribution permission not established for this pack."
+        },
+        {
+          "path": "Monolithic102/ME086.lean",
+          "reason": "Redistribution permission not established for this pack."
+        },
+        {
+          "path": "Monolithic102/ME087.lean",
+          "reason": "Redistribution permission not established for this pack."
+        },
+        {
+          "path": "Monolithic102/ME088.lean",
+          "reason": "Redistribution permission not established for this pack."
+        },
+        {
+          "path": "Monolithic102/ME089.lean",
+          "reason": "Redistribution permission not established for this pack."
+        },
+        {
+          "path": "Monolithic102/ME090.lean",
+          "reason": "Redistribution permission not established for this pack."
+        },
+        {
+          "path": "Monolithic102/ME091.lean",
+          "reason": "Redistribution permission not established for this pack."
+        },
+        {
+          "path": "Monolithic102/ME092.lean",
+          "reason": "Redistribution permission not established for this pack."
+        },
+        {
+          "path": "Monolithic102/ME093.lean",
+          "reason": "Redistribution permission not established for this pack."
+        },
+        {
+          "path": "Monolithic102/ME094.lean",
+          "reason": "Redistribution permission not established for this pack."
+        },
+        {
+          "path": "Monolithic102/ME095.lean",
+          "reason": "Redistribution permission not established for this pack."
+        },
+        {
+          "path": "Monolithic102/ME096.lean",
+          "reason": "Redistribution permission not established for this pack."
+        },
+        {
+          "path": "Monolithic102/ME097.lean",
+          "reason": "Redistribution permission not established for this pack."
+        },
+        {
+          "path": "Monolithic102/ME098.lean",
+          "reason": "Redistribution permission not established for this pack."
+        },
+        {
+          "path": "Monolithic102/ME099.lean",
+          "reason": "Redistribution permission not established for this pack."
+        },
+        {
+          "path": "Monolithic102/ME100.lean",
+          "reason": "Redistribution permission not established for this pack."
+        },
+        {
+          "path": "Monolithic102/ME101.lean",
+          "reason": "Redistribution permission not established for this pack."
+        },
+        {
+          "path": "Monolithic102/ME102.lean",
+          "reason": "Redistribution permission not established for this pack."
+        },
+        {
+          "path": "Monolithic102/Schema.lean",
+          "reason": "Redistribution permission not established for this pack."
+        },
+        {
+          "path": "Monolithic102/ZooAudit.lean",
+          "reason": "Redistribution permission not established for this pack."
+        },
+        {
+          "path": "Monolithic102/readme.md",
+          "reason": "Redistribution permission not established for this pack."
+        },
+        {
+          "path": "README.md",
+          "reason": "Redistribution permission not established for this pack."
+        },
+        {
+          "path": "SOURCE_SHA256.txt",
+          "reason": "Redistribution permission not established for this pack."
+        },
+        {
+          "path": "THEOREM_REGISTER.md",
+          "reason": "Redistribution permission not established for this pack."
+        },
+        {
+          "path": "VERIFICATION.md",
+          "reason": "Redistribution permission not established for this pack."
+        },
+        {
+          "path": "VERIFY.log",
+          "reason": "Redistribution permission not established for this pack."
+        },
+        {
+          "path": "analysis/Audit.lean",
+          "reason": "Redistribution permission not established for this pack."
+        },
+        {
+          "path": "analysis/COVERAGE.md",
+          "reason": "Redistribution permission not established for this pack."
+        },
+        {
+          "path": "analysis/CatalogueAnalysis.lean",
+          "reason": "Redistribution permission not established for this pack."
+        },
+        {
+          "path": "analysis/FLUIDS.md",
+          "reason": "Redistribution permission not established for this pack."
+        },
+        {
+          "path": "analysis/Fluids.lean",
+          "reason": "Redistribution permission not established for this pack."
+        },
+        {
+          "path": "analysis/LINEARIZED_GRAVITY.md",
+          "reason": "Redistribution permission not established for this pack."
+        },
+        {
+          "path": "analysis/LinearizedGravity.lean",
+          "reason": "Redistribution permission not established for this pack."
+        },
+        {
+          "path": "analysis/MADELUNG.md",
+          "reason": "Redistribution permission not established for this pack."
+        },
+        {
+          "path": "analysis/Madelung.lean",
+          "reason": "Redistribution permission not established for this pack."
+        },
+        {
+          "path": "analysis/RECURSIVE_LAGRANGIAN.md",
+          "reason": "Redistribution permission not established for this pack."
+        },
+        {
+          "path": "analysis/ROTATION_COSMOLOGY.md",
+          "reason": "Redistribution permission not established for this pack."
+        },
+        {
+          "path": "analysis/RecursiveLagrangian.lean",
+          "reason": "Redistribution permission not established for this pack."
+        },
+        {
+          "path": "analysis/RotatingCosmology.lean",
+          "reason": "Redistribution permission not established for this pack."
+        },
+        {
+          "path": "analysis/RotationKinematics.lean",
+          "reason": "Redistribution permission not established for this pack."
+        },
+        {
+          "path": "analysis/SCALAR_ACTION.md",
+          "reason": "Redistribution permission not established for this pack."
+        },
+        {
+          "path": "analysis/SPECIFICATIONS.md",
+          "reason": "Redistribution permission not established for this pack."
+        },
+        {
+          "path": "analysis/ScalarAction.lean",
+          "reason": "Redistribution permission not established for this pack."
+        },
+        {
+          "path": "analysis/SpecifiedModels.lean",
+          "reason": "Redistribution permission not established for this pack."
+        },
+        {
+          "path": "analysis/VORTICITY.md",
+          "reason": "Redistribution permission not established for this pack."
+        },
+        {
+          "path": "analysis/Vorticity.lean",
+          "reason": "Redistribution permission not established for this pack."
+        },
+        {
+          "path": "analysis/coverage.json",
+          "reason": "Redistribution permission not established for this pack."
+        },
+        {
+          "path": "analysis/lake-manifest.json",
+          "reason": "Redistribution permission not established for this pack."
+        },
+        {
+          "path": "analysis/lakefile.toml",
+          "reason": "Redistribution permission not established for this pack."
+        },
+        {
+          "path": "analysis/lean-toolchain",
+          "reason": "Redistribution permission not established for this pack."
+        },
+        {
+          "path": "analysis/scripts/check_coverage.py",
+          "reason": "Redistribution permission not established for this pack."
+        },
+        {
+          "path": "analysis/scripts/test_axiom_audit.py",
+          "reason": "Redistribution permission not established for this pack."
+        },
+        {
+          "path": "canonical/CANONICAL_102.md",
+          "reason": "Redistribution permission not established for this pack."
+        },
+        {
+          "path": "canonical/SHA256SUMS",
+          "reason": "Redistribution permission not established for this pack."
+        },
+        {
+          "path": "canonical/equations.json",
+          "reason": "Redistribution permission not established for this pack."
+        },
+        {
+          "path": "canonical/equations.ndjson",
+          "reason": "Redistribution permission not established for this pack."
+        },
+        {
+          "path": "canonical/readme.md",
+          "reason": "Redistribution permission not established for this pack."
+        },
+        {
+          "path": "equation-map.json",
+          "reason": "Redistribution permission not established for this pack."
+        },
+        {
+          "path": "lake-manifest.json",
+          "reason": "Redistribution permission not established for this pack."
+        },
+        {
+          "path": "lakefile.lean",
+          "reason": "Redistribution permission not established for this pack."
+        },
+        {
+          "path": "lean-toolchain",
+          "reason": "Redistribution permission not established for this pack."
+        },
+        {
+          "path": "legacy-mathlib/TURTLE-survivors/CollapseOmega.lean",
+          "reason": "Redistribution permission not established for this pack."
+        },
+        {
+          "path": "legacy-mathlib/TURTLE-survivors/Contraction.lean",
+          "reason": "Redistribution permission not established for this pack."
+        },
+        {
+          "path": "legacy-mathlib/TURTLE-survivors/Evaluation.lean",
+          "reason": "Redistribution permission not established for this pack."
+        },
+        {
+          "path": "legacy-mathlib/TURTLE-survivors/Exponent.lean",
+          "reason": "Redistribution permission not established for this pack."
+        },
+        {
+          "path": "legacy-mathlib/TURTLE-survivors/Monolithic102.lean",
+          "reason": "Redistribution permission not established for this pack."
+        },
+        {
+          "path": "legacy-mathlib/TURTLE-survivors/Potential.lean",
+          "reason": "Redistribution permission not established for this pack."
+        },
+        {
+          "path": "legacy-mathlib/TURTLE-survivors/Robustness.lean",
+          "reason": "Redistribution permission not established for this pack."
+        },
+        {
+          "path": "legacy-mathlib/TURTLE-survivors/SurvivorTypes.lean",
+          "reason": "Redistribution permission not established for this pack."
+        },
+        {
+          "path": "legacy-mathlib/TURTLE-survivors/TurtleIndex.lean",
+          "reason": "Redistribution permission not established for this pack."
+        },
+        {
+          "path": "legacy-mathlib/TURTLE-survivors/readme.md",
+          "reason": "Redistribution permission not established for this pack."
+        },
+        {
+          "path": "scripts/build_zoo_audit.py",
+          "reason": "Redistribution permission not established for this pack."
+        },
+        {
+          "path": "scripts/readme.md",
+          "reason": "Redistribution permission not established for this pack."
+        },
+        {
+          "path": "scripts/test_axiom_audit.py",
+          "reason": "Redistribution permission not established for this pack."
+        },
+        {
+          "path": "scripts/verify_package.py",
+          "reason": "Redistribution permission not established for this pack."
+        },
+        {
+          "path": "source/MONOLITHIC_102_SOURCE.md",
+          "reason": "Redistribution permission not established for this pack."
+        },
+        {
+          "path": "source/readme.md",
+          "reason": "Redistribution permission not established for this pack."
+        },
+        {
+          "path": "zoo/PASS1_SOURCE.md",
+          "reason": "Redistribution permission not established for this pack."
+        },
+        {
+          "path": "zoo/ZOO_AUDIT.md",
+          "reason": "Redistribution permission not established for this pack."
+        },
+        {
+          "path": "zoo/equation-audit.csv",
+          "reason": "Redistribution permission not established for this pack."
+        },
+        {
+          "path": "zoo/equation-audit.json",
+          "reason": "Redistribution permission not established for this pack."
+        },
+        {
+          "path": "zoo/readme.md",
+          "reason": "Redistribution permission not established for this pack."
+        }
+      ],
+      "repo": "enuminous/Monolithic-102-Zoo-Lean4",
+      "status": "metadata-only",
+      "treeFiles": 177
+    },
+    {
+      "capturedBytes": 302722,
+      "capturedFiles": 80,
+      "commit": "15dfb335424e77e1458cd77996f23d074dac0d88",
+      "gitTreeSha": "7c49fea61e9b9855fb6a178b7dd94b48d9c4d17f",
+      "license": {
+        "basis": "Root MIT grant, original notice retained; embedded upstream collections excluded because root notice defers to their individual terms.",
+        "gitBlobSha": "62c3e4a9d0c33c730c119fc5813fec3dfacf08d3",
+        "path": "LICENSE",
+        "spdx": "MIT"
+      },
+      "omitted": [
+        {
+          "path": "UPSTREAM_SOURCES.json",
+          "reason": "Embedded upstream-source collections require a separate per-component license review."
+        },
+        {
+          "path": "extension-sources.json",
+          "reason": "Embedded upstream-source collections require a separate per-component license review."
+        }
+      ],
+      "repo": "enuminous/Monolithic-Zoo-Lean4",
+      "status": "partially-cached",
+      "treeFiles": 82
+    },
+    {
+      "capturedBytes": 0,
+      "capturedFiles": 0,
+      "commit": "170679d21aa0f570fda505ee3b03864b717be950",
+      "gitTreeSha": "49c22aee5299ed545c0e143571626f321003ff53",
+      "license": {
+        "basis": "No applicable repository-wide redistribution grant established; source bytes withheld.",
+        "paths": [],
+        "spdx": null
+      },
+      "omitted": [
+        {
+          "path": "001.md",
+          "reason": "Redistribution permission not established for this pack."
+        },
+        {
+          "path": "002.md",
+          "reason": "Redistribution permission not established for this pack."
+        },
+        {
+          "path": "003.md",
+          "reason": "Redistribution permission not established for this pack."
+        },
+        {
+          "path": "004.md",
+          "reason": "Redistribution permission not established for this pack."
+        },
+        {
+          "path": "005.md",
+          "reason": "Redistribution permission not established for this pack."
+        },
+        {
+          "path": "006.md",
+          "reason": "Redistribution permission not established for this pack."
+        },
+        {
+          "path": "007.md",
+          "reason": "Redistribution permission not established for this pack."
+        },
+        {
+          "path": "008.md",
+          "reason": "Redistribution permission not established for this pack."
+        },
+        {
+          "path": "009.md",
+          "reason": "Redistribution permission not established for this pack."
+        },
+        {
+          "path": "010.md",
+          "reason": "Redistribution permission not established for this pack."
+        },
+        {
+          "path": "011.md",
+          "reason": "Redistribution permission not established for this pack."
+        },
+        {
+          "path": "012.md",
+          "reason": "Redistribution permission not established for this pack."
+        },
+        {
+          "path": "013.md",
+          "reason": "Redistribution permission not established for this pack."
+        },
+        {
+          "path": "014.md",
+          "reason": "Redistribution permission not established for this pack."
+        },
+        {
+          "path": "015.md",
+          "reason": "Redistribution permission not established for this pack."
+        },
+        {
+          "path": "016.md",
+          "reason": "Redistribution permission not established for this pack."
+        },
+        {
+          "path": "017.md",
+          "reason": "Redistribution permission not established for this pack."
+        },
+        {
+          "path": "018.md",
+          "reason": "Redistribution permission not established for this pack."
+        },
+        {
+          "path": "019.md",
+          "reason": "Redistribution permission not established for this pack."
+        },
+        {
+          "path": "020.md",
+          "reason": "Redistribution permission not established for this pack."
+        },
+        {
+          "path": "021.md",
+          "reason": "Redistribution permission not established for this pack."
+        },
+        {
+          "path": "022.md",
+          "reason": "Redistribution permission not established for this pack."
+        },
+        {
+          "path": "023.md",
+          "reason": "Redistribution permission not established for this pack."
+        },
+        {
+          "path": "024.md",
+          "reason": "Redistribution permission not established for this pack."
+        },
+        {
+          "path": "025.md",
+          "reason": "Redistribution permission not established for this pack."
+        },
+        {
+          "path": "026.md",
+          "reason": "Redistribution permission not established for this pack."
+        },
+        {
+          "path": "027.md",
+          "reason": "Redistribution permission not established for this pack."
+        },
+        {
+          "path": "028.md",
+          "reason": "Redistribution permission not established for this pack."
+        },
+        {
+          "path": "029.md",
+          "reason": "Redistribution permission not established for this pack."
+        },
+        {
+          "path": "030.md",
+          "reason": "Redistribution permission not established for this pack."
+        },
+        {
+          "path": "031.md",
+          "reason": "Redistribution permission not established for this pack."
+        },
+        {
+          "path": "032.md",
+          "reason": "Redistribution permission not established for this pack."
+        },
+        {
+          "path": "033.md",
+          "reason": "Redistribution permission not established for this pack."
+        },
+        {
+          "path": "034.md",
+          "reason": "Redistribution permission not established for this pack."
+        },
+        {
+          "path": "035.md",
+          "reason": "Redistribution permission not established for this pack."
+        },
+        {
+          "path": "036.md",
+          "reason": "Redistribution permission not established for this pack."
+        },
+        {
+          "path": "037.md",
+          "reason": "Redistribution permission not established for this pack."
+        },
+        {
+          "path": "038.md",
+          "reason": "Redistribution permission not established for this pack."
+        },
+        {
+          "path": "039.md",
+          "reason": "Redistribution permission not established for this pack."
+        },
+        {
+          "path": "040.md",
+          "reason": "Redistribution permission not established for this pack."
+        },
+        {
+          "path": "041.md",
+          "reason": "Redistribution permission not established for this pack."
+        },
+        {
+          "path": "042.md",
+          "reason": "Redistribution permission not established for this pack."
+        },
+        {
+          "path": "043.md",
+          "reason": "Redistribution permission not established for this pack."
+        },
+        {
+          "path": "044.md",
+          "reason": "Redistribution permission not established for this pack."
+        },
+        {
+          "path": "045.md",
+          "reason": "Redistribution permission not established for this pack."
+        },
+        {
+          "path": "046.md",
+          "reason": "Redistribution permission not established for this pack."
+        },
+        {
+          "path": "047.md",
+          "reason": "Redistribution permission not established for this pack."
+        },
+        {
+          "path": "048.md",
+          "reason": "Redistribution permission not established for this pack."
+        },
+        {
+          "path": "049.md",
+          "reason": "Redistribution permission not established for this pack."
+        },
+        {
+          "path": "050.md",
+          "reason": "Redistribution permission not established for this pack."
+        },
+        {
+          "path": "051.md",
+          "reason": "Redistribution permission not established for this pack."
+        },
+        {
+          "path": "052.md",
+          "reason": "Redistribution permission not established for this pack."
+        },
+        {
+          "path": "053.md",
+          "reason": "Redistribution permission not established for this pack."
+        },
+        {
+          "path": "054.md",
+          "reason": "Redistribution permission not established for this pack."
+        },
+        {
+          "path": "055.md",
+          "reason": "Redistribution permission not established for this pack."
+        },
+        {
+          "path": "056.md",
+          "reason": "Redistribution permission not established for this pack."
+        },
+        {
+          "path": "057.md",
+          "reason": "Redistribution permission not established for this pack."
+        },
+        {
+          "path": "058.md",
+          "reason": "Redistribution permission not established for this pack."
+        },
+        {
+          "path": "059.md",
+          "reason": "Redistribution permission not established for this pack."
+        },
+        {
+          "path": "060.md",
+          "reason": "Redistribution permission not established for this pack."
+        },
+        {
+          "path": "061.md",
+          "reason": "Redistribution permission not established for this pack."
+        },
+        {
+          "path": "062.md",
+          "reason": "Redistribution permission not established for this pack."
+        },
+        {
+          "path": "063.md",
+          "reason": "Redistribution permission not established for this pack."
+        },
+        {
+          "path": "064.md",
+          "reason": "Redistribution permission not established for this pack."
+        },
+        {
+          "path": "065.md",
+          "reason": "Redistribution permission not established for this pack."
+        },
+        {
+          "path": "066.md",
+          "reason": "Redistribution permission not established for this pack."
+        },
+        {
+          "path": "067.md",
+          "reason": "Redistribution permission not established for this pack."
+        },
+        {
+          "path": "068.md",
+          "reason": "Redistribution permission not established for this pack."
+        },
+        {
+          "path": "069.md",
+          "reason": "Redistribution permission not established for this pack."
+        },
+        {
+          "path": "070.md",
+          "reason": "Redistribution permission not established for this pack."
+        },
+        {
+          "path": "071.md",
+          "reason": "Redistribution permission not established for this pack."
+        },
+        {
+          "path": "072.md",
+          "reason": "Redistribution permission not established for this pack."
+        },
+        {
+          "path": "073.md",
+          "reason": "Redistribution permission not established for this pack."
+        },
+        {
+          "path": "074.md",
+          "reason": "Redistribution permission not established for this pack."
+        },
+        {
+          "path": "075.md",
+          "reason": "Redistribution permission not established for this pack."
+        },
+        {
+          "path": "076.md",
+          "reason": "Redistribution permission not established for this pack."
+        },
+        {
+          "path": "077.md",
+          "reason": "Redistribution permission not established for this pack."
+        },
+        {
+          "path": "078.md",
+          "reason": "Redistribution permission not established for this pack."
+        },
+        {
+          "path": "079.md",
+          "reason": "Redistribution permission not established for this pack."
+        },
+        {
+          "path": "080.md",
+          "reason": "Redistribution permission not established for this pack."
+        },
+        {
+          "path": "081.md",
+          "reason": "Redistribution permission not established for this pack."
+        },
+        {
+          "path": "082.md",
+          "reason": "Redistribution permission not established for this pack."
+        },
+        {
+          "path": "083.md",
+          "reason": "Redistribution permission not established for this pack."
+        },
+        {
+          "path": "084.md",
+          "reason": "Redistribution permission not established for this pack."
+        },
+        {
+          "path": "085.md",
+          "reason": "Redistribution permission not established for this pack."
+        },
+        {
+          "path": "086.md",
+          "reason": "Redistribution permission not established for this pack."
+        },
+        {
+          "path": "087.md",
+          "reason": "Redistribution permission not established for this pack."
+        },
+        {
+          "path": "088.md",
+          "reason": "Redistribution permission not established for this pack."
+        },
+        {
+          "path": "089.md",
+          "reason": "Redistribution permission not established for this pack."
+        },
+        {
+          "path": "090.md",
+          "reason": "Redistribution permission not established for this pack."
+        },
+        {
+          "path": "091.md",
+          "reason": "Redistribution permission not established for this pack."
+        },
+        {
+          "path": "092.md",
+          "reason": "Redistribution permission not established for this pack."
+        },
+        {
+          "path": "093.md",
+          "reason": "Redistribution permission not established for this pack."
+        },
+        {
+          "path": "094.md",
+          "reason": "Redistribution permission not established for this pack."
+        },
+        {
+          "path": "095.md",
+          "reason": "Redistribution permission not established for this pack."
+        },
+        {
+          "path": "096.md",
+          "reason": "Redistribution permission not established for this pack."
+        },
+        {
+          "path": "097.md",
+          "reason": "Redistribution permission not established for this pack."
+        },
+        {
+          "path": "098.md",
+          "reason": "Redistribution permission not established for this pack."
+        },
+        {
+          "path": "099.md",
+          "reason": "Redistribution permission not established for this pack."
+        },
+        {
+          "path": "100.md",
+          "reason": "Redistribution permission not established for this pack."
+        },
+        {
+          "path": "101.md",
+          "reason": "Redistribution permission not established for this pack."
+        },
+        {
+          "path": "102.md",
+          "reason": "Redistribution permission not established for this pack."
+        },
+        {
+          "path": "CANONICAL_102.md",
+          "reason": "Redistribution permission not established for this pack."
+        },
+        {
+          "path": "CHANGELOG.md",
+          "reason": "Redistribution permission not established for this pack."
+        },
+        {
+          "path": "CITATION.md",
+          "reason": "Redistribution permission not established for this pack."
+        },
+        {
+          "path": "EQUATION_INDEX.md",
+          "reason": "Redistribution permission not established for this pack."
+        },
+        {
+          "path": "MANIFEST.md",
+          "reason": "Redistribution permission not established for this pack."
+        },
+        {
+          "path": "README.md",
+          "reason": "Redistribution permission not established for this pack."
+        },
+        {
+          "path": "SHA256SUMS",
+          "reason": "Redistribution permission not established for this pack."
+        },
+        {
+          "path": "SOURCE_SUBSTACK_EXPORT.md",
+          "reason": "Redistribution permission not established for this pack."
+        },
+        {
+          "path": "STATUS.md",
+          "reason": "Redistribution permission not established for this pack."
+        },
+        {
+          "path": "equations.json",
+          "reason": "Redistribution permission not established for this pack."
+        },
+        {
+          "path": "equations.ndjson",
+          "reason": "Redistribution permission not established for this pack."
+        }
+      ],
+      "repo": "enuminous/Monolithic_102_EFMW",
+      "status": "metadata-only",
+      "treeFiles": 113
+    },
+    {
+      "capturedBytes": 0,
+      "capturedFiles": 0,
+      "commit": "72958ea6f3faaab07ad64ab9db8818362da370bb",
+      "gitTreeSha": "98220fdff4bdd1aef308d782c90869c5fd84859d",
+      "license": {
+        "basis": "No applicable repository-wide redistribution grant established; source bytes withheld.",
+        "paths": [],
+        "spdx": null
+      },
+      "omitted": [
+        {
+          "path": ".github/workflows/lean.yml",
+          "reason": "Redistribution permission not established for this pack."
+        },
+        {
+          "path": ".gitignore",
+          "reason": "Redistribution permission not established for this pack."
+        },
+        {
+          "path": ".nojekyll",
+          "reason": "Redistribution permission not established for this pack."
+        },
+        {
+          "path": "ARISTOTLE_SUMMARY.md",
+          "reason": "Redistribution permission not established for this pack."
+        },
+        {
+          "path": "Audit.lean",
+          "reason": "Redistribution permission not established for this pack."
+        },
+        {
+          "path": "DERIVATION.md",
+          "reason": "Redistribution permission not established for this pack."
+        },
+        {
+          "path": "PROVENANCE.md",
+          "reason": "Redistribution permission not established for this pack."
+        },
+        {
+          "path": "README (2).md",
+          "reason": "Redistribution permission not established for this pack."
+        },
+        {
+          "path": "README.md",
+          "reason": "Redistribution permission not established for this pack."
+        },
+        {
+          "path": "RequestProject/Main.lean",
+          "reason": "Redistribution permission not established for this pack."
+        },
+        {
+          "path": "RequestProject/Oroboros.lean",
+          "reason": "Redistribution permission not established for this pack."
+        },
+        {
+          "path": "RequestProject/readme.md",
+          "reason": "Redistribution permission not established for this pack."
+        },
+        {
+          "path": "UNIVERSE.md",
+          "reason": "Redistribution permission not established for this pack."
+        },
+        {
+          "path": "VERIFICATION.md",
+          "reason": "Redistribution permission not established for this pack."
+        },
+        {
+          "path": "archive/2025-02-05-original.html",
+          "reason": "Redistribution permission not established for this pack."
+        },
+        {
+          "path": "assets/app.js",
+          "reason": "Redistribution permission not established for this pack."
+        },
+        {
+          "path": "assets/ouroboros-universe.png",
+          "reason": "Redistribution permission not established for this pack."
+        },
+        {
+          "path": "assets/style.css",
+          "reason": "Redistribution permission not established for this pack."
+        },
+        {
+          "path": "docs/ARTWORK.md",
+          "reason": "Redistribution permission not established for this pack."
+        },
+        {
+          "path": "docs/CONSISTENCY_REVIEW.md",
+          "reason": "Redistribution permission not established for this pack."
+        },
+        {
+          "path": "docs/DERIVATION.md",
+          "reason": "Redistribution permission not established for this pack."
+        },
+        {
+          "path": "docs/PROVENANCE.md",
+          "reason": "Redistribution permission not established for this pack."
+        },
+        {
+          "path": "formal/Audit.lean",
+          "reason": "Redistribution permission not established for this pack."
+        },
+        {
+          "path": "formal/COVERAGE.md",
+          "reason": "Redistribution permission not established for this pack."
+        },
+        {
+          "path": "formal/Oroboros.lean",
+          "reason": "Redistribution permission not established for this pack."
+        },
+        {
+          "path": "formal/VERIFICATION.md",
+          "reason": "Redistribution permission not established for this pack."
+        },
+        {
+          "path": "formal/lake-manifest.json",
+          "reason": "Redistribution permission not established for this pack."
+        },
+        {
+          "path": "formal/lakefile.toml",
+          "reason": "Redistribution permission not established for this pack."
+        },
+        {
+          "path": "formal/lean-toolchain",
+          "reason": "Redistribution permission not established for this pack."
+        },
+        {
+          "path": "formal/scripts/test_axiom_audit.py",
+          "reason": "Redistribution permission not established for this pack."
+        },
+        {
+          "path": "index.html",
+          "reason": "Redistribution permission not established for this pack."
+        },
+        {
+          "path": "lake-manifest.json",
+          "reason": "Redistribution permission not established for this pack."
+        },
+        {
+          "path": "lakefile.toml",
+          "reason": "Redistribution permission not established for this pack."
+        },
+        {
+          "path": "lean-toolchain",
+          "reason": "Redistribution permission not established for this pack."
+        },
+        {
+          "path": "scripts/test_axiom_audit.py",
+          "reason": "Redistribution permission not established for this pack."
+        },
+        {
+          "path": "scripts/verify.cjs",
+          "reason": "Redistribution permission not established for this pack."
+        },
+        {
+          "path": "scripts/verify_catalogue.py",
+          "reason": "Redistribution permission not established for this pack."
+        },
+        {
+          "path": "src/math.js",
+          "reason": "Redistribution permission not established for this pack."
+        },
+        {
+          "path": "verification/results.json",
+          "reason": "Redistribution permission not established for this pack."
+        }
+      ],
+      "repo": "enuminous/Oroboros",
+      "status": "metadata-only",
+      "treeFiles": 39
+    },
+    {
+      "capturedBytes": 24991,
+      "capturedFiles": 10,
+      "commit": "6d75d1280eb03d66f8e12b484ec3c3e38d76909c",
+      "gitTreeSha": "d725e3d320e0c385af69c67058faf9603d5cf636",
+      "license": {
+        "basis": "Repository CC0 1.0 notice retained; source imports reference dependencies but do not bundle them.",
+        "gitBlobSha": "e718669dd73de713dbca9dc7e07b64627d63dd7a",
+        "path": "LICENSE",
+        "spdx": "CC0-1.0"
+      },
+      "omitted": [],
+      "repo": "enuminous/Zoo-Monster",
+      "status": "fully-mirrored",
+      "treeFiles": 10
+    }
+  ],
+  "rightsNotice": "Licenses are recorded evidence, not an ownership certification or a new license. Unreviewed embedded upstream collections and repositories without an applicable redistribution grant are withheld.",
+  "scope": "Pinned committed-tree reading archive. No Git histories, fetched dependencies, LFS payloads, or submodule content. No source code is executed.",
+  "snapshotDate": "2026-10-23"
+}

@@ -1,0 +1,5 @@
+node_modules/
+test-results/
+mirror_output/
+__pycache__/
+tests/verified-root.dag-cbor

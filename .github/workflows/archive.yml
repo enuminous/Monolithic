@@ -1,0 +1,39 @@
+name: Archive integrity and offline retrieval
+on:
+  push:
+  pull_request:
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  offline:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+          cache: npm
+      - run: npm ci
+      - name: Verify and reconstruct pack without fetching sources
+        run: |
+          python3 tests/check_source_pack.py
+          python3 tools/build.py
+          node tests/check_formats.mjs
+          node tests/check_offline.mjs
+          node tools/export_pack.mjs
+          sha256sum -c source-packs/SHA256SUMS
+          git diff --exit-code -- corpus-index.json index.html source-packs
+          python3 tests/check_server.py
+      - run: npx playwright install --with-deps chromium firefox webkit
+      - name: Real browser offline import, storage and export
+        run: node tests/check_browser.mjs
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: offline-browser-evidence
+          path: test-results/
